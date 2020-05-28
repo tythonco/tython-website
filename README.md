@@ -1,4 +1,4 @@
-# Tython SFDX Project Template
+# blog Project
 
 ## Dev, Build and Test
 
