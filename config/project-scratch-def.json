@@ -1,5 +1,5 @@
 {
-    "orgName": "blog",
+    "orgName": "Rendering Performance Aura vs LWC",
     "edition": "Developer",
     "settings": {
         "lightningExperienceSettings": {
@@ -8,6 +8,5 @@
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
         }
-    },
-    "adminEmail": "blog@tython.co"
+    }
 }
