@@ -8,7 +8,7 @@
 
 3. Unzip download & clone [this repo](https://github.com/tythonco/confluence-to-markdown) locally
 
-4. Follow the `confluence-to-markdown` instructions to convert the exported files to markdown format
+4. Follow the `confluence-to-markdown` instructions to convert the exported files to markdown format and ensure post file name is in lowercase
 
 5. Checkout the `gh-pages` branch of this repo and add the newly created files, this is an orphan branch so be careful *not* to pull in any unnecessary source
 
