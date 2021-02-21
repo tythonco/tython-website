@@ -3,4 +3,4 @@
 ## Available Pages:
 
 -   [Rendering Performance: Aura vs
-    LWC](Rendering_Performance_Aura_vs_LWC)
+    LWC](rendering_performance_aura_vs_lwc)
