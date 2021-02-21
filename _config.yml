@@ -18,7 +18,7 @@ email: support@tython.co
 description: >- # this means to ignore newlines until "baseurl:"
   Tython provides consulting services to Salesforce partners, customers, and ISVs with a focus on lightning components, Apex development, and backend integrations.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "tythonco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tythonco
 github_username:  tythonco
 
