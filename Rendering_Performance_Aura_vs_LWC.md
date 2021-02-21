@@ -1,5 +1,7 @@
 # Rendering Performance: Aura vs LWC
 
+2/21/21
+
 [Martin Glauber](mailto:martin.glauber@tython.co) & [Scott
 Covert](mailto:scott.covert@tython.co)
 
