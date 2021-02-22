@@ -6,17 +6,21 @@
 
 2. Upon publish approval, export content to HTML (Space Settings > Content Tools > Export > HTML > Custom Export)
 
-3. Unzip download & clone [this repo](https://github.com/tythonco/confluence-to-markdown) locally
+3. Checkout the `gh-pages` branch of this repo and run `npm install`
 
-4. Follow the `confluence-to-markdown` instructions to convert the exported files to markdown format and ensure post file name is in lowercase
+4. Unzip download and copy the resulting `TI` folder to the root directory
 
-5. Checkout the `gh-pages` branch of this repo and add the newly created files, this is an orphan branch so be careful *not* to pull in any unnecessary source
+5. Convert the exported HTML files to Markdown by running `npm start`
 
-6. To test updates locally *temporarily* clear the `baseurl` and `url` values within `_config.yml` and then run `bundle update && bundle exec jekyll serve`
+6. Ensure any new post file names are in lowercase
 
-7. When ready, be sure `baseurl` and `url` are reverted to their original values, commit your changes, and push to the `gh-pages` remote branch
+7. Add the related folders/files for any new posts to the root directory
 
-8. Verify your new post is available online :tada:
+8. To test updates locally run `npm test` and open http://localhost:4000/blog
+
+9. When ready, commit your changes and push to the `gh-pages` remote branch
+
+10. Verify you can view the new post(s) online :tada:
 
 ## Resources
 
