@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Contains Tython blog posts to be served as a Jekyll static site via GitHub Pages",
   "private": true,
-  "dependencies": {
-    "confluence-to-markdown": "^1.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "confluence-to-markdown": "git+https://github.com/tythonco/confluence-to-markdown.git"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "coffee node_modules/confluence-to-markdown/src/index.coffee TI out",
     "test": "bundle install && bundle exec jekyll serve"
