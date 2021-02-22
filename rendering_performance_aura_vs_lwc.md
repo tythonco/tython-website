@@ -2,8 +2,8 @@
 
 2/21/21
 
-[Martin Glauber](mailto:martin.glauber@tython.co) & [Scott
-Covert](mailto:scott.covert@tython.co)
+[Martin Glauber](https://www.tython.co/) & [Scott
+Covert](https://www.tython.co/)
 
 If you haven’t already, there is a laundry list of reasons why your team
 should make the switch from Aura to Lightning Web Components: Better
