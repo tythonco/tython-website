@@ -1,0 +1,23 @@
+{
+  "name": "tython-blog",
+  "version": "1.0.0",
+  "description": "Contains Tython blog posts to be served as a Jekyll static site via GitHub Pages",
+  "private": true,
+  "dependencies": {
+    "confluence-to-markdown": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "coffee node_modules/confluence-to-markdown/src/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tythonco/blog.git"
+  },
+  "author": "Scott Covert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tythonco/blog/issues"
+  },
+  "homepage": "https://github.com/tythonco/blog#readme"
+}
