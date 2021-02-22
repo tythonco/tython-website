@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "coffee node_modules/confluence-to-markdown/src/index.coffee TI out"
+    "start": "coffee node_modules/confluence-to-markdown/src/index.coffee TI out",
+    "test": "bundle install && bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
