@@ -16,7 +16,7 @@
 
 7. Add the related folders/files for any new posts to the root directory
 
-8. To test updates locally run `npm test` and open http://localhost:4000/blog
+8. To test updates locally run `npm test` and open http://localhost:4000/blog/
 
 9. When ready, commit your changes and push to the `gh-pages` remote branch
 
