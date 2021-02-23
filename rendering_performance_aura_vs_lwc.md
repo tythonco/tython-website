@@ -33,8 +33,6 @@ seconds from page load to painting.
 
 <img src="attachments/805896316/803668120.png" class="image-center" />
 
- 
-
 We also found performance degraded exponentially in Aura as the list
 size increased, to the point where the page eventually was completely
 unusable.
