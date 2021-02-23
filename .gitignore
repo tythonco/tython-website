@@ -5,3 +5,4 @@ node_modules
 .sfdx
 TI
 out
+.DS_Store

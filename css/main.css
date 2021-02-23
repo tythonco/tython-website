@@ -1,0 +1,183 @@
+/* Shared */
+
+.ftco-section {
+	padding-top: 4em;
+	padding-bottom: 0;
+}
+
+/* Hero Section */
+
+.hero-wrap {
+	position: relative;
+}
+
+.tythonBGLogoSVG {
+	margin: auto;	
+	display: flex;
+	position: relative;	
+}
+
+.tythonBGLogoImage {
+	margin: auto;
+	display: none;
+	position: absolute;    
+    top: 0;
+    left: 7%;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-wrap .owl-carousel .owl-item img,
+.hero-wrap .owl-carousel .owl-item svg {
+  height: 300px;;
+  width: auto;
+  margin: auto;
+  padding-top: 2.5rem; 
+  padding-bottom: 2.5rem;
+}
+
+@media (min-width: 576px) {
+	.tythonBGLogoImage {
+		left: 4%;
+	}
+}
+
+@media (min-width: 768px) {
+	.hero-wrap .owl-carousel .owl-item img,
+	.hero-wrap .owl-carousel .owl-item svg {
+		padding-top: 0;
+		margin-bottom: 5rem;
+		height: 450px;
+	}
+	
+	.tythonBGLogoImage {
+		left: 10%;
+	}
+}
+
+@media (min-width: 992px) {
+	.hero-wrap .owl-carousel .owl-item img,
+	.hero-wrap .owl-carousel .owl-item svg {
+		padding-top: 5rem;
+		margin-bottom: 5rem;
+		height: 550px;
+	}
+	
+	.tythonBGLogoImage {
+		left: 7%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.tythonBGLogoImage {
+		left: 5%;
+	}
+}
+
+/* Clients Section */
+
+.clients-section {
+	position: relative;
+}
+
+.clients-section .owl-carousel {
+	margin: 0; 
+}
+
+.clients-section .owl-carousel .owl-stage-outer {
+	padding-top: 3.5em;
+	padding-bottom: 2em;
+	position: relative;
+}
+
+.clients-section .owl-carousel .owl-item .item {
+	height: 100px;
+}
+
+.clients-section .owl-carousel .owl-item .item img {
+	max-height: 100px;
+	max-width: 95%;
+	width: auto;
+	margin: auto;
+	position: absolute;    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.inverted {
+	filter: invert(1);
+}
+
+/* Testimony Section */
+
+.testimony-section .owl-carousel .owl-stage {
+	height: 475px;
+}
+
+.testimony-section .owl-carousel .owl-item .testimony-wrap {
+	height: 475px;
+	position: absolute;    
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+@media (min-width: 576px) {
+	.testimony-section .owl-carousel .owl-stage {
+		height: 350px;
+	}
+	
+	.testimony-section .owl-carousel .owl-item .testimony-wrap {
+		height: 350px;
+	}
+}
+
+@media (min-width: 992px) {
+	.testimony-section .owl-carousel .owl-stage {
+		height: 475px;
+	}
+	
+	.testimony-section .owl-carousel .owl-item .testimony-wrap {
+		height: 475px;
+	}
+}
+
+/* Contact Section */
+
+.subscribe-form .form-group input {
+    border: 1px solid #81919a;
+	color: #81919a !important;
+}
+.subscribe-form .form-group input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #81919a !important;
+}
+.subscribe-form .form-group input::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #81919a !important;
+}
+.subscribe-form .form-group input:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #81919a !important;
+}
+.subscribe-form .form-group input:-moz-placeholder {
+	/* Firefox 18- */
+	color: #81919a !important;
+}
+.subscribe-form .icon {
+  color: #81919a;
+}
+
+.hiddenSubmit {
+	visibility: hidden;
+	position: absolute;
+}
+
+/* Footer Section */
+
+.footerIcon {
+	margin-right: 0.5em;
+}
