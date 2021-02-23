@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tython Blog
+title: Tython
 email: support@tython.co
 description: >- # this means to ignore newlines until "baseurl:"
   Tython provides consulting services to Salesforce partners, customers, and ISVs with a focus on lightning components, Apex development, and backend integrations.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "tythonco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "tython.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tythonco
 github_username:  tythonco
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
 markdown: kramdown
