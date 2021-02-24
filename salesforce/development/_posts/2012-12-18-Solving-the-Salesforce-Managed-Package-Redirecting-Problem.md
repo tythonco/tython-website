@@ -17,6 +17,6 @@ Let’s say you have a Visualforce component embedded within a Visualforce page 
 
 After tinkering with this I’ve come up with the following resolution. The Apex code below, when used within an extension of your Visualforce component, should properly refresh a page whether the component exists within a native Visualforce page of your managed package or within a customer’s custom Visualforce page. Likewise, the refresh will behave properly whether the page is being accessed internally or via a Salesforce Site. This is a tweak on a solution originally proposed by d3developer [here](http://boards.developerforce.com/t5/Apex-Code-Development/Get-Current-Page-URL-in-Apex-Class-Full-amp-Exact-URL/td-p/134623)\-so many thanks to him or her for getting me started in the right direction.
 
-![]({{ site.url }}/images/1__FnO__CUSG85xymKSwpMf7mg.png)
+![]({{ site.baseurl }}/images/1__FnO__CUSG85xymKSwpMf7mg.png)
 
 As you may have already guessed, prior to this snippet I declared the newPageRef variable to be an instance of the PageReference class and theObject is an instance of the generic sObject class (Depending on your code you may want to just use ApexPages.currentPage().getParameters().get(‘id’) ). Hope this helps-happy coding everyone!

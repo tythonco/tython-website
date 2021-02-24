@@ -17,11 +17,11 @@ Sometimes it is necessary to set the showHeader attribute of the apex:page tag t
 
 First, with the showHeader attribute still set to true, load your Visualforce page. You will need to inspect a few elements’ CSS values to emulate the same color scheme once we set showHeader to false. If you are using Firefox, right-click the very top border of the page, just under the header, and select “Inspect Element” If you clicked the correct area, then the entire Visualforce page area should be selected. In the bottom right corner of your screen select “Style” and then on the side panel that appears search for a section that says “.bPageBlock {border-top: 4px solid \[SOME COLOR\]}” Take note of the color written here-mine was rgb(49,148,49).
 
-![]({{ site.url }}/images/0__UsU6k3RwHlkPgb4h.png)
+![]({{ site.baseurl }}/images/0__UsU6k3RwHlkPgb4h.png)
 
 Next, right-click the sub-header on your Visualforce page, select “Style” and search for a section that says “.pbSubheader{background-color: \[SOME COLOR\]}” Take note of this color as well-mine was rgb(126,180,126).
 
-![]({{ site.url }}/images/0__prbkYfOHG5OixaOl.png)
+![]({{ site.baseurl }}/images/0__prbkYfOHG5OixaOl.png)
 
 Next, you will want to edit your Visualforce page. First, set the showHeader attribute in the apex:page tag to false and then insert the following code below your apex:page tag line (replacing the color values with those you took note of earlier):
 

@@ -24,12 +24,12 @@ numbers on the page.
 With a lightning web component, an iteration over a list with 10,000
 elements completed in just over 1 second.
 
-<img src="{{ site.url }}/images/803668113.png" class="image-center" />
+<img src="{{ site.baseurl }}/images/803668113.png" class="image-center" />
 
 With a lightning aura component however, that same list took over 4
 seconds from page load to painting.
 
-<img src="{{ site.url }}/images/803668120.png" class="image-center" />
+<img src="{{ site.baseurl }}/images/803668120.png" class="image-center" />
 
 We also found performance degraded exponentially in Aura as the list
 size increased, to the point where the page eventually was completely

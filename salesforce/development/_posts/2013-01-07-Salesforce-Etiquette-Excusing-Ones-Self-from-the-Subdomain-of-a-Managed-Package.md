@@ -23,6 +23,6 @@ Well, as it turns out I discovered the solution to this problem is actually quit
 
 Here’s a snippet of code you could use within an Apex class to accomplish this functionality (You’ll notice I only grab the content when the class is not running within the context of a test — this is because the getContent() method is not allowed within a test context):
 
-![]({{ site.url }}/images/1__9TOWSSTGhuLyLIFM8z6Xpw.png)
+![]({{ site.baseurl }}/images/1__9TOWSSTGhuLyLIFM8z6Xpw.png)
 
 Hope this helps someone, happy coding!

@@ -87,4 +87,4 @@ Again, you don’t really need to have the gnash plugin for flash, but if you’
 
 After restarting Eclipse you should have the Force.com plugin working on your new Chromebook-merry coding to all, and to all a good night!
 
-![ForceEclipseChrubuntu]({{ site.url }}/images/0_MlghwNRmlOhtZV62.png)
+![ForceEclipseChrubuntu]({{ site.baseurl }}/images/0_MlghwNRmlOhtZV62.png)
