@@ -4,6 +4,7 @@
 
 To test updates locally run `npm test` from the `gh-pages` branch and open http://localhost:4000
 
+
 ## Blog Posts
 
 ### Instructions for Creating a New Draft Post
@@ -36,11 +37,13 @@ To test updates locally run `npm test` from the `gh-pages` branch and open http:
 
 3. Be sure to add all necessary frontmatter to the new post
 
-## Publinshing New Content
+
+## Publishing New Content
 
 1. Commit local changes and open a PR against `gh-pages`
 
 2. After the PR has been merged, verify you can view the new content online :tada:
+
 
 ## Resources
 
