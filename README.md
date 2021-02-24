@@ -1,26 +1,46 @@
-# Tython Blog
+# Tython Site
 
-## Instructions for Creating a New Post
+## Testing New Content
+
+To test updates locally run `npm test` and open http://localhost:4000
+
+## Blog Posts
+
+### Instructions for Creating a New Draft Post
+
+#### Via Markdown
+
+1. Checkout a new branch based on the `gh-pages` branch of this repo
+
+2. Write content in markdown under a `_drafts` folder until completed
+
+#### Via Confluence
 
 1. Write content as a child page under 'Drafts' within internal Confluence space
 
-2. Upon publish approval, export content to HTML (Space Settings > Content Tools > Export > HTML > Custom Export)
+2. Once your draft is completed create a child page under 'Posts' and copy over just the blog content from your draft
 
-3. Checkout the `gh-pages` branch of this repo and run `npm install`
+3. Export your post content to HTML (Space Settings > Content Tools > Export > HTML > Custom Export)
 
-4. Unzip download and copy the resulting `TI` folder to the root directory
+4. Checkout a new branch based on the `gh-pages` branch of this repo and run `npm install`
 
-5. Convert the exported HTML files to Markdown by running `npm start`
+5. Unzip download and copy the resulting `TI` folder to the root directory
 
-6. Ensure any new post file names are in lowercase
+6. Convert the exported HTML files to Markdown by running `npm start`, the converted files will be placed in the `out` folder
 
-7. Add the related folders/files for any new posts to the root directory
+### Converting a Draft to a New Post
 
-8. To test updates locally run `npm test` and open http://localhost:4000/blog/
+1. Move the draft file to a new or pre-existing `_posts` folder, using the folder hierarchy to categorize based on content
 
-9. When ready, commit your changes and push to the `gh-pages` remote branch
+2. Move any other static files referenced by your post as needed
 
-10. Verify you can view the new post(s) online :tada:
+3. Be sure to add all necessary frontmatter to the new post
+
+## Publinshing New Content
+
+1. Commit local changes and open a PR against `gh-pages`
+
+2. After the PR has been merged, verify you can view the new content online :tada:
 
 ## Resources
 
