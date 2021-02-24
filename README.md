@@ -2,7 +2,7 @@
 
 ## Testing New Content
 
-To test updates locally run `npm test` and open http://localhost:4000
+To test updates locally run `npm test` from the `gh-pages` branch and open http://localhost:4000
 
 ## Blog Posts
 
