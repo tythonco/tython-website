@@ -1,10 +1,4 @@
----
-layout: default
----
-
 # Rendering Performance: Aura vs LWC
-
-2/21/21
 
 [Martin Glauber](https://www.tython.co/) & [Scott
 Covert](https://www.tython.co/)
