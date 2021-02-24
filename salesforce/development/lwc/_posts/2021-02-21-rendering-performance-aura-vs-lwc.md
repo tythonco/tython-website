@@ -1,4 +1,13 @@
-# Rendering Performance: Aura vs LWC
+---
+title: >-
+  Rendering Performance: Aura vs LWC
+description: ''
+date: '2021-02-21T07:02:00.000Z'
+categories: []
+keywords: []
+slug: >-
+  /rendering-performance-aura-vs-lwc
+---
 
 [Martin Glauber](https://www.tython.co/) & [Scott
 Covert](https://www.tython.co/)
