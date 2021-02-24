@@ -1,7 +1,7 @@
 {
-  "name": "tython-blog",
+  "name": "tython-website",
   "version": "1.0.0",
-  "description": "Contains Tython blog posts to be served as a Jekyll static site via GitHub Pages",
+  "description": "Contains Tython website to be served as a Jekyll static site via GitHub Pages",
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tythonco/blog.git"
+    "url": "git+https://github.com/tythonco/tython-website.git"
   },
   "author": "Scott Covert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tythonco/blog/issues"
+    "url": "https://github.com/tythonco/tython-website/issues"
   },
-  "homepage": "https://github.com/tythonco/blog#readme"
+  "homepage": "https://github.com/tythonco/tython-website#readme"
 }
