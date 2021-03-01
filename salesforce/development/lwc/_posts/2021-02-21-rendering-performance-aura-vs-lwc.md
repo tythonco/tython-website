@@ -45,7 +45,7 @@ size increased, to the point where the page eventually was completely
 unusable.
 
 If you’d like to test this out for yourself, check out [our
-repo](https://github.com/tythonco/tython-website/tree/master/rendering-performance-aura-vs-lwc)
+repo]({{ site.examples_url }}{{ page.slug }})
 for sample code of the same component in both Aura and LWC format that
 you can deploy to a scratch org for comparison.
 

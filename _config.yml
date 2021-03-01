@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "tython.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tythonco
 github_username:  tythonco
+repo_name: "tython-website"
+examples_url: "https://github.com/tythonco/tython-website/examples"
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
@@ -38,17 +40,18 @@ titles_from_headings:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - examples/
   - Gemfile
   - Gemfile.lock
+  - .gitignore
   - node_modules
+  - out/
+  - package-lock.json
+  - package.json
+  - README.md
+  - .sfdx/
+  - TI/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - out/
-  - TI/
-  - package-lock.json
-  - package.json
-  - .sfdx/
-  - .gitignore
-  - README.md
