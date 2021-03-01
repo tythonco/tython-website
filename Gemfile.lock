@@ -265,6 +265,7 @@ DEPENDENCIES
   github-pages (~> 207)
   jekyll-feed (~> 0.6)
   jekyll-titles-from-headings
+  jemoji
   kramdown-parser-gfm
   minima (~> 2.0)
   tzinfo (~> 1.2)

@@ -39,3 +39,5 @@ gem "kramdown-parser-gfm"
 gem 'jekyll-titles-from-headings'
 
 gem 'webrick'
+
+gem 'jemoji'
