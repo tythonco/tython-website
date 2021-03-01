@@ -22,7 +22,7 @@ url: "tython.co" # the base hostname & protocol for your site, e.g. http://examp
 twitter_username: tythonco
 github_username:  tythonco
 repo_name: "tython-website"
-examples_url: "https://github.com/tythonco/tython-website/examples"
+examples_url: "https://github.com/tythonco/tython-website/tree/master/examples"
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
