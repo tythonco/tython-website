@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable" >
+    <aura:attribute name="items" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:iteration items="{!v.items}" var="item">
+        <p>{!item.name}</p>
+    </aura:iteration>
+</aura:component>	
