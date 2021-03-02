@@ -37,12 +37,10 @@ _manually_
 updating all the profiles in production, cursing yourself for scheduling yet
 another deployment on a Friday...
 
-:point_up:
 Sound familiar? Don't worry, you're not alone! Everyone has their own
 Salesforce deployment horror stories, and far too often they can be traced
 back to profile permissions. But fear not, because
 **there's a better way**!
-:raised_hands:
 
 Permission sets have been around for quite a while now (apparently since 2012!)
 Yet, I still see so many orgs managing all their permissions via profiles.
@@ -63,14 +61,15 @@ the underlying metadata for a profile changes slightly as a result of a new
 Salesforce release. All these frequent changes can make profile management
 very difficult.
 
-**:one:-to-Many vs Many-to-Many**
+**One-to-Many vs Many-to-Many**
 
 If you think about the underlying objects, essentially there is a lookup from
 the User object to the Profile object. This means although many users may share
 the same profile, each individual can only have one profile. This is significant
 because in many businesses, especially in ones growing rapidly, users are wearing
 many different hats so it's difficult to define a single role (as in job role,
-not role hierarchy :smile:) for each user. Often what ends up happening is admins
+*not*
+role hierarchy!) for each user. Often what ends up happening is admins
 have to choose between making a
 *ton*
 of profiles or risk assigning unnecessary permissions to users that have the same
@@ -97,6 +96,7 @@ object, and as the name suggests, can group multiple permission sets in one shot
 Another important note is that a permission set can be assigned to multiple groups.
 This means you can
 **map permission sets to job functions and permission set groups to job roles.**
+:tada:
 
 So if a user takes on an additional role temporarily while the business searches for a
 full-time hire, then they can have the appropriate permission set group assigned to
