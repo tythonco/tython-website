@@ -1,30 +1,30 @@
 ---
 title: >-
-  Goodbye Profiles, Hello Perm Sets
+  Goodbye Profiles, Hello Permission Sets
 description: ''
 date: '2021-03-01T03:32:00.000Z'
 categories: []
 keywords: []
 slug: >-
-  /goodbye-profiles-hello-perm-sets
+  /goodbye-profiles-hello-permission-sets
 ---
 
 [Scott Covert](https://www.tython.co/)
 
+**The Trouble with Profiles**
+
 The day is finally here! After weeks of development and testing (you
 did test, right? RIGHT?) you're finally ready to deploy your changes
 to production.
-:rocket:
 
 You sip your coffee with a sense of pride as you wait for user feedback.
 Then you see those three dreaded words flash across Slack,
 `It's not working.`
 
-*What*?!?
-How could that be? You get reports that users can't see the new
+What?!? How could that be? You get reports that users can't see the new
 fields or access any of the new tabs. And then you get that sinking feeling
 in the pit of your stomach as you realize
-**you forgot to update profile permissions...**
+*you forgot to update profile permissions...*
 :man_facepalming:
 
 Okay, okay - you can fix this. You can just deploy the profiles from your
@@ -40,7 +40,7 @@ another deployment on a Friday...
 Sound familiar? Don't worry, you're not alone! Everyone has their own
 Salesforce deployment horror stories, and far too often they can be traced
 back to profile permissions. But fear not, because
-**there's a better way**!
+*there's a better way - permission sets*!
 
 Permission sets have been around for quite a while now (apparently since 2012!)
 Yet, I still see so many orgs managing all their permissions via profiles.
@@ -91,12 +91,10 @@ manage as well.
 
 In the Spring '20 release permission set groups became generally available to help
 organizations that needed to simplify the assignment of permission sets to their
-users. Permission set groups also have a many-to-many relationship with the User
-object, and as the name suggests, can group multiple permission sets in one shot.
-Another important note is that a permission set can be assigned to multiple groups.
-This means you can
-**map permission sets to job functions and permission set groups to job roles.**
-:tada:
+users. Permission set groups have a many-to-many relationship with the User
+object as well as with permission sets. This means you can batch multiple permission
+sets into a single permission set group and each permission set can be assigned to
+multiple permission set groups.
 
 So if a user takes on an additional role temporarily while the business searches for a
 full-time hire, then they can have the appropriate permission set group assigned to
@@ -109,12 +107,17 @@ specific permissions within a permission set group so
 you don't have to change the underlying permission set (impacting other permission set
 groups) if a specific aspect of the permission set doesn't apply.
 
-We use permission sets all the time in our Salesforce development, and with permission
-set groups it's getting harder to justify managing permissions via profiles. In fact,
-even Salesforce has stated
-[their long term plan is to sunset profiles.](https://admin.salesforce.com/blog/2019/introducing-the-next-generation-of-user-management-permission-set-groups)
+**Making the Switch**
 
-If you could use a hand in updating your org to leverage perm sets
+It's definitely getting harder to justify managing permissions via profiles; in fact, even
+Salesforce has stated
+[their long term plan is to sunset profiles.](https://admin.salesforce.com/blog/2019/introducing-the-next-generation-of-user-management-permission-set-groups)
+We use permission sets all the time in our Salesforce development and our general
+rule of thumb is to
+**map permission sets to job functions and permission set groups to job roles.**
+:tada:
+
+If you could use a hand in updating your org to leverage permission sets
 or with another Salesforce development project then
 [give us a shout](mailto:support@tython.co),
 we’d be happy to help!
