@@ -44,7 +44,10 @@ back to profile permissions. But fear not, because
 
 Permission sets have been around for quite a while now (apparently since 2012!)
 Yet, I still see so many orgs managing all their permissions via profiles.
-There are two main reasons why I think this is a bad idea:
+I think one reason is because field-level security settings can be assigned to
+profiles as the field is created, which you cannot do with permission sets.
+Some may see this as a nice feature, but I've also seen it cause a lot of problems.
+There are two main reasons why I think managing permissions via profiles is a bad idea:
 1. Profiles have a tendency to mutate frequently
 2. Profiles have a one-to-many relationship with the User object
 
