@@ -2,7 +2,7 @@
 title: >-
   Goodbye Profiles, Hello Permission Sets
 description: ''
-date: '2021-03-01T03:32:00.000Z'
+date: '2021-03-02T14:00:00.000Z'
 categories: []
 keywords: []
 slug: >-
