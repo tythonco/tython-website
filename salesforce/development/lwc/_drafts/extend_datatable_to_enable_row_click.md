@@ -1,4 +1,18 @@
-# Extending Lightning Datatable to Enable Row-Click Handling
+---
+title: >-
+  Extending LWC Datatable With Row-Click Handling
+description: 'Extending LWC base components to implement new functionality, using row-click handling on the Datatable as an example.'
+date: '2021-03-03T14:00:00.000Z'
+categories: []
+keywords: []
+slug: >-
+  /extend-lwc-datatable-with-row-click-handling
+---
+
+[Andrew R Chen](https://www.tython.co/)
+
+
+# Extending LWC Datatable With Row-Click Handling
 
 Salesforce provides a bevy of base components when building applications. These often get the job done but there are limitations. When some desired functionality is not implemented, the choices are:
 
@@ -162,3 +176,5 @@ disconnectedCallback() {
 ===
 
 With that, we can now handle the row click event! This pattern can be used to extend Lightning Datatable in other ways, and other Lightning Web Components as well.
+
+If you could use a hand in hacking your LWCs, or with another Salesforce development project then [give us a shout](mailto:support@tython.co), we’d be happy to help!
