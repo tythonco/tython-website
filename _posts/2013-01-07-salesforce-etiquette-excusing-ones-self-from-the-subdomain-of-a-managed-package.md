@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Salesforce Etiquette: Excusing One’s Self from the Subdomain of a Managed
   Package

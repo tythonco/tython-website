@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Location-Aware Salesforce App Cloud Development with Beacons and Automatic
   Geocoding

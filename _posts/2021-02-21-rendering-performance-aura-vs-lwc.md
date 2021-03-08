@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Rendering Performance: Aura vs LWC
 description: ''

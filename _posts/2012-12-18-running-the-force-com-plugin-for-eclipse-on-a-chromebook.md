@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Running the Force.com Plugin for Eclipse on a Chromebook
 description: ''
 date: '2012-12-18T19:24:37.000Z'

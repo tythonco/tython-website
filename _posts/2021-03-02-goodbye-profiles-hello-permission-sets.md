@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Goodbye Profiles, Hello Permission Sets
 description: ''

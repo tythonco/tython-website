@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Preserving Your Tab Style’s Color Scheme within a VFPage when showHeader is
   False
