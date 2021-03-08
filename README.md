@@ -50,6 +50,8 @@ should auto-publish the post once the publication date has been reached
 
 ## Resources
 
-[Confluence to Markdown](https://github.com/tythonco/confluence-to-markdown)
-
 [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+
+[Jekyll CheatSheet](https://devhints.io/jekyll)
+
+[Confluence to Markdown](https://github.com/tythonco/confluence-to-markdown)
