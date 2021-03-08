@@ -3,7 +3,7 @@ title: >-
   Extending LWC Datatable With Row-Click Handling
 description: 'Extending LWC base components to implement new functionality, using row-click handling on the Datatable as an example.'
 date: '2021-03-08T20:00:00.000Z'
-categories: ['development']
+categories: ['salesforce', 'development', 'lwc']
 keywords: ['lwc', 'javascript', 'code']
 slug: >-
   /extend-lwc-datatable-with-row-click-handling
@@ -30,10 +30,12 @@ Until rectified, here is a way to extend Lightning data table functionality. Let
 
 Here is the basic setup and definition of the data columns for our example.
 
-```js
+```html
 // DatatablePlus.html ("empty" since we are extending class)
 <template></template>
+```
 
+```js
 // DatatablePlus.js
 export default class DatatablePlus extends LightningElement {
     columns = [
@@ -131,7 +133,7 @@ table.addEventListener(
 
 Let’s use our _enhanced_ Lightning-Datatable. Set up a handler to parse the message and use the passed Id.
 
-```js
+```html
 // Example.html
 
 <c-datatable-plus
@@ -142,7 +144,9 @@ Let’s use our _enhanced_ Lightning-Datatable. Set up a handler to parse the me
     hide-checkbox-column
 >
 </c-datatable-plus>
+```
 
+```js
 // Example.js
 
 connectedCallback() {
@@ -173,8 +177,8 @@ disconnectedCallback() {
 }
 ```
 
-===
+## Done!
 
 With that, we can now handle the row click event! This pattern can be used to extend Lightning Datatable in other ways, and other Lightning Web Components as well.
 
-If you could use a hand in hacking your LWCs, or with another Salesforce development project then [give us a shout](mailto:support@tython.co), we’d be happy to help!
+If you could use a hand in hacking your LWCs, or with another Salesforce development project, then [give us a shout](mailto:support@tython.co). We’d be happy to help!
