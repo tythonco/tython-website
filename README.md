@@ -1,5 +1,12 @@
 # Tython Site
 
+## Setup
+
+1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+on your machine
+
+2. Run `npm install` to bring in all other dependencies
+
 ## Testing New Content
 
 To test updates locally run `npm test` and open http://localhost:4000
