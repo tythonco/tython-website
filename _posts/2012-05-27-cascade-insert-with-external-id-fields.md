@@ -2,7 +2,7 @@
 title: Cascade Insert with External Id Fields
 description: ''
 date: '2012-05-27T16:05:12.000Z'
-categories: []
+categories: ['salesforce', 'development']
 keywords: []
 slug: /cascade-insert-with-external-id-fields
 ---

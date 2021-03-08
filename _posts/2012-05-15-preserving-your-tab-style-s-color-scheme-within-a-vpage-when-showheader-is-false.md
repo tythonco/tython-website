@@ -4,7 +4,7 @@ title: >-
   False
 description: ''
 date: '2012-05-15T21:05:39.000Z'
-categories: []
+categories: ['salesforce', 'development']
 keywords: []
 slug: >-
   /preserving-your-tab-styles-color-scheme-within-a-vfpage-when-showheader-is-false

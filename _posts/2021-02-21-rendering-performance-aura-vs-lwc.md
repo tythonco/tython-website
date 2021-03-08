@@ -3,7 +3,7 @@ title: >-
   Rendering Performance: Aura vs LWC
 description: ''
 date: '2021-02-21T07:02:00.000Z'
-categories: []
+categories: ['salesforce', 'development', 'lwc']
 keywords: []
 slug: >-
   /rendering-performance-aura-vs-lwc
