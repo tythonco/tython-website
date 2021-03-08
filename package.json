@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "coffee node_modules/confluence-to-markdown/src/index.coffee TI out",
-    "test": "bundle install && open http://localhost:4000 && bundle exec jekyll serve --livereload --drafts"
+    "test": "bundle install && open http://localhost:4000 && bundle exec jekyll serve --livereload --drafts --future"
   },
   "repository": {
     "type": "git",
