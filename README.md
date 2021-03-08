@@ -43,7 +43,7 @@ To test updates locally run `npm test` and open http://localhost:4000
 1. Commit local changes and open a PR
 
 2. After the PR has been merged, our scheduled
-[Github Action](https://github.com/soywiz/github-action-jekyll-publish-drafts/blob/master/script.ts)
+[Github Action](https://github.com/soywiz/github-action-jekyll-publish-drafts)
 should auto-publish the post once the publication date has been reached
 
 3. Verify you can view the new content online after the publication date :tada:
