@@ -5,7 +5,7 @@ title: >-
 description: ''
 date: '2021-03-02T14:00:00.000Z'
 categories: ['salesforce', 'permissions']
-keywords: []
+keywords: ['permissions', 'profiles']
 slug: >-
   /goodbye-profiles-hello-permission-sets
 ---

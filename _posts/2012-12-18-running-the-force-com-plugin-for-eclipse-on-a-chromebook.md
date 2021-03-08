@@ -4,7 +4,7 @@ title: Running the Force.com Plugin for Eclipse on a Chromebook
 description: ''
 date: '2012-12-18T19:24:37.000Z'
 categories: ['salesforce', 'development']
-keywords: []
+keywords: ['chromebook', 'eclipse']
 slug: >-
   /running-the-force-com-plugin-for-eclipse-on-a-chromebook
 ---

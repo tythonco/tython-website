@@ -5,7 +5,7 @@ title: >-
 description: ''
 date: '2021-02-21T07:02:00.000Z'
 categories: ['salesforce', 'development', 'lwc']
-keywords: []
+keywords: ['lwc', 'aura', 'performance']
 slug: >-
   /rendering-performance-aura-vs-lwc
 ---

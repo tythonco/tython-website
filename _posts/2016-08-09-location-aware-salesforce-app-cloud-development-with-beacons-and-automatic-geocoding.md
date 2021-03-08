@@ -8,7 +8,7 @@ description: >-
   participate in the next best thing by presenting two sessions…
 date: '2016-08-09T17:12:07.352Z'
 categories: ['salesforce', 'development', 'dreamforce']
-keywords: []
+keywords: ['dreamforce', 'ibeacons', 'location']
 slug: >-
   /location-aware-salesforce-app-cloud-development-with-beacons-and-automatic-geocoding
 ---

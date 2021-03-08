@@ -4,7 +4,7 @@ title: CloudSpokes — Simple Timer & Timecard System for Salesforce
 description: ''
 date: '2012-01-26T20:03:12.000Z'
 categories: ['salesforce', 'development']
-keywords: []
+keywords: ['cloudspokes', 'timer']
 slug: >-
   /cloudspokes-simple-timer-timecard-system-for-salesforce
 ---

@@ -4,7 +4,7 @@ title: Solving the Salesforce Managed Package Redirecting Problem
 description: ''
 date: '2012-12-18T19:23:20.000Z'
 categories: ['salesforce', 'development']
-keywords: []
+keywords: ['package', 'redirect']
 slug: >-
   /solving-the-salesforce-managed-package-redirecting-problem
 ---

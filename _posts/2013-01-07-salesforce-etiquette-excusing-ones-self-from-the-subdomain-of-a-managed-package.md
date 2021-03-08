@@ -6,7 +6,7 @@ title: >-
 description: ''
 date: '2013-01-07T05:39:53.000Z'
 categories: ['salesforce', 'development']
-keywords: []
+keywords: ['package', 'subdomain']
 slug: >-
   /salesforce-etiquette-excusing-ones-self-from-the-subdomain-of-a-managed-package
 ---
