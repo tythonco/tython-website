@@ -2,9 +2,9 @@
 title: >-
   Extending LWC Datatable With Row-Click Handling
 description: 'Extending LWC base components to implement new functionality, using row-click handling on the Datatable as an example.'
-date: '2021-03-03T14:00:00.000Z'
-categories: []
-keywords: []
+date: '2021-03-08T20:00:00.000Z'
+categories: ['development']
+keywords: ['lwc', 'javascript', 'code']
 slug: >-
   /extend-lwc-datatable-with-row-click-handling
 ---
