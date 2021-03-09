@@ -3,9 +3,10 @@
 ## Setup
 
 1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-on your machine
 
-2. Run `npm install` to bring in all other dependencies
+2. [Install Bundler & Jekyll](https://jekyllrb.com/docs/installation/)
+
+3. Run `npm install` to bring in all other dependencies
 
 ## Testing New Content
 
