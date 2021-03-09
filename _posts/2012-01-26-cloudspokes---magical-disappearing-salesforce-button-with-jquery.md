@@ -2,7 +2,7 @@
 layout: post
 title: CloudSpokes — Magical Disappearing Salesforce Button with jQuery
 description: ''
-date: '2012-01-26T20:50:38.000Z'
+date: 2012-01-26T20:50:38.000Z
 categories: ['salesforce', 'development']
 keywords: ['cloudspokes', 'jquery']
 slug: >-
