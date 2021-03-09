@@ -2,7 +2,7 @@
 layout: post
 title: Using the String.split() method with a Pipe Delimiter
 description: ''
-date: '2012-05-16T21:52:17.000Z'
+date: 2012-05-16T21:52:17.000Z
 categories: ['salesforce', 'development']
 keywords: ['apex', 'string']
 slug: >-

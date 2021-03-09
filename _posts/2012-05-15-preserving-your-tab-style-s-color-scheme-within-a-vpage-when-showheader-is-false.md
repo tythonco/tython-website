@@ -4,7 +4,7 @@ title: >-
   Preserving Your Tab Style’s Color Scheme within a VFPage when showHeader is
   False
 description: ''
-date: '2012-05-15T21:05:39.000Z'
+date: 2012-05-15T21:05:39.000Z
 categories: ['salesforce', 'development']
 keywords: ['tab']
 slug: >-

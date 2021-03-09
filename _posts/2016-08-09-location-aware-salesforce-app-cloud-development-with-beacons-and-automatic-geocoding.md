@@ -6,7 +6,7 @@ title: >-
 description: >-
   Although there was no hackathon at #Dreamforce2015 I was fortunate enough to
   participate in the next best thing by presenting two sessions…
-date: '2016-08-09T17:12:07.352Z'
+date: 2016-08-09T17:12:07.352Z
 categories: ['salesforce', 'development', 'dreamforce']
 keywords: ['dreamforce', 'ibeacons', 'location']
 slug: >-
