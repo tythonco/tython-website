@@ -3,7 +3,7 @@ name: AutoPublish
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 20 * * 1'
+    - cron: '10 03 * * 2'
 
 jobs:
   build:
