@@ -1,5 +1,13 @@
 # Tython Site
 
+## Setup
+
+1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+
+2. [Install Bundler & Jekyll](https://jekyllrb.com/docs/installation/)
+
+3. Run `npm install` to bring in all other dependencies
+
 ## Testing New Content
 
 To test updates locally run `npm test` and open http://localhost:4000
@@ -12,7 +20,9 @@ To test updates locally run `npm test` and open http://localhost:4000
 
 1. Checkout a new branch
 
-2. Write content in markdown under a `_drafts` folder until completed
+2. `npm run draft "My New Post"`
+
+3. Fill out all frontmatter details, setting `date` to the expected publication date
 
 #### Via Confluence
 
@@ -35,22 +45,21 @@ To test updates locally run `npm test` and open http://localhost:4000
 2. Drop all related example code and files into the new folder
 
 3. Link to this folder from your post with the following syntax `[link]({{ site.examples_url }}{{ page.slug }})`
-### Converting a Draft to a New Post
-
-1. Move the draft file to a new or pre-existing `_posts` folder, using the folder hierarchy to categorize based on content
-
-2. Move any other static files referenced by your post as needed
-
-3. Be sure to add all necessary frontmatter to the new post
 
 ## Publishing New Content
 
 1. Commit local changes and open a PR
 
-2. After the PR has been merged, verify you can view the new content online :tada:
+2. After the PR has been merged, our scheduled
+[Github Action](https://github.com/soywiz/github-action-jekyll-publish-drafts)
+should auto-publish the post once the publication date has been reached
+
+3. Verify you can view the new content online after the publication date :tada:
 
 ## Resources
 
-[Confluence to Markdown](https://github.com/tythonco/confluence-to-markdown)
-
 [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+
+[Jekyll CheatSheet](https://devhints.io/jekyll)
+
+[Confluence to Markdown](https://github.com/tythonco/confluence-to-markdown)

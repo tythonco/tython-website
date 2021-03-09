@@ -1,10 +1,11 @@
 ---
+layout: post
 title: >-
   Goodbye Profiles, Hello Permission Sets
 description: ''
 date: '2021-03-02T14:00:00.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'permissions']
+keywords: ['permissions', 'profiles']
 slug: >-
   /goodbye-profiles-hello-permission-sets
 ---

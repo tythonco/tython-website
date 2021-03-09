@@ -1,9 +1,10 @@
 ---
+layout: post
 title: Using the String.split() method with a Pipe Delimiter
 description: ''
 date: '2012-05-16T21:52:17.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development']
+keywords: ['apex', 'string']
 slug: >-
   /using-the-string-split-method-with-a-pipe-delimiter
 ---

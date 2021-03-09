@@ -1,9 +1,10 @@
 ---
+layout: post
 title: 4th Place in the 2014 Dreamforce Hackathon!
 description: ''
 date: '2014-10-15T18:59:44.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development', 'dreamforce']
+keywords: ['dreamforce', 'hackathon']
 slug: /4th-place-in-the-2014-dreamforce-hackathon
 ---
 

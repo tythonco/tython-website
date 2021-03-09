@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Extending LWC Datatable With Row-Click Handling
 description: 'Extending LWC base components to implement new functionality, using row-click handling on the Datatable as an example.'

@@ -37,6 +37,15 @@ titles_from_headings:
   strip_title: true
   collections: true 
 
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      date:
+      categories:
+      keywords:
+      slug:
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

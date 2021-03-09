@@ -1,10 +1,11 @@
 ---
+layout: post
 title: >-
   Rendering Performance: Aura vs LWC
 description: ''
 date: '2021-02-21T07:02:00.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development', 'lwc']
+keywords: ['lwc', 'aura', 'performance']
 slug: >-
   /rendering-performance-aura-vs-lwc
 ---

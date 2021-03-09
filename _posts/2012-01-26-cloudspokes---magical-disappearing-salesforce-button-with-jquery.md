@@ -1,9 +1,10 @@
 ---
+layout: post
 title: CloudSpokes — Magical Disappearing Salesforce Button with jQuery
 description: ''
 date: '2012-01-26T20:50:38.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development']
+keywords: ['cloudspokes', 'jquery']
 slug: >-
   /cloudspokes-magical-disappearing-salesforce-button-with-jquery
 ---

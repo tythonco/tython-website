@@ -1,11 +1,12 @@
 ---
+layout: post
 title: >-
   Salesforce Etiquette: Excusing One’s Self from the Subdomain of a Managed
   Package
 description: ''
 date: '2013-01-07T05:39:53.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development']
+keywords: ['package', 'subdomain']
 slug: >-
   /salesforce-etiquette-excusing-ones-self-from-the-subdomain-of-a-managed-package
 ---

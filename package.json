@@ -5,11 +5,14 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "confluence-to-markdown": "git+https://github.com/tythonco/confluence-to-markdown.git"
+    "coffeescript": "^2.5.1",
+    "confluence-to-markdown": "git+https://github.com/tythonco/confluence-to-markdown.git",
+    "open-cli": "^6.0.1"
   },
   "scripts": {
+    "draft": "bundle exec jekyll draft",
     "start": "coffee node_modules/confluence-to-markdown/src/index.coffee TI out",
-    "test": "bundle install && open http://localhost:4000 && bundle exec jekyll serve --livereload --drafts"
+    "test": "bundle install && open-cli http://localhost:4000 && bundle exec jekyll serve --livereload --drafts --future"
   },
   "repository": {
     "type": "git",

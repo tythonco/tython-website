@@ -1,9 +1,10 @@
 ---
-title: Calculating Exponents with Fractions in APEX
+layout: post
+title: Calculating Exponents with Fractions in Apex
 description: ''
 date: '2012-01-17T21:24:30.000Z'
-categories: []
-keywords: []
+categories: ['salesforce', 'development']
+keywords: ['apex', 'exponents', 'fractions']
 slug: /calculating-exponents-with-fractions-in-apex
 ---
 
