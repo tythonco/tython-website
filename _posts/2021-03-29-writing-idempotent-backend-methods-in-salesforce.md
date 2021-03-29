@@ -3,7 +3,7 @@ layout: post
 title: >-
   Writing Idempotent Backend Methods in Salesforce
 description: ''
-date: 2021-03-25T07:00:00.000Z
+date: 2021-03-29T07:00:00.000Z
 categories: ['salesforce', 'apex']
 keywords: ['salesforce' , 'apex' ]
 slug: >-
@@ -21,7 +21,7 @@ The code for the sample application in this blog post can be found here:
 
 The example application that I have created is a movie review app. Here's a screen shot:
 
-<img src="/images/2021-03-25-idempotent-backend-methods-1.png" class="image-center" />
+<img src="/images/2021-03-29-idempotent-backend-methods-1.png" class="image-center" />
 
 As you can see in the image above,
 
@@ -43,7 +43,7 @@ In the first implementation of the save functionality, which is wired to the but
 
 Since the same user is rating the same movie, you would want an idempotent save method to just have one rating saved there. In reality though, we get multiple records saved. 
 
-<img src="/images/2021-03-25-idempotent-backend-methods-2.png" class="image-center" />
+<img src="/images/2021-03-29-idempotent-backend-methods-2.png" class="image-center" />
 
 So what's going on here?
 
@@ -88,7 +88,7 @@ In this example, the delay between the query and the dml operations was artifici
 
 In the second implementation, with button `Save 1`, you can click on the button multiple times on the first save, but you still just get the one record. 
 
-<img src="/images/2021-03-25-idempotent-backend-methods-3.png" class="image-center" />
+<img src="/images/2021-03-29-idempotent-backend-methods-3.png" class="image-center" />
 
 What this method does differently is that rather than having a separate query and dml call, the same method just upserts against an "external id".
 
