@@ -190,5 +190,13 @@ For our movie rating application, another way to handle this issue could be to h
 
 Along that same line of thought though, it's also important to point out that not all apex code is initiated though ui actions. I've seen push requests come into a Salesforce org from a service that would sometimes send out duplicates, and in those situations, we absolutely needed to make sure our apex endpoints were idempotent.  
 
-Thanks for reading. If you need any help with your apex code or with anything Salesforce-related, you can reach us at <a href="mailto:support@tython.co">support@tython.co</a>.
+<br>
+<br>
+
+Thanks for reading. 
+
+If you need any help with your apex code or with anything Salesforce related, you can reach us at <a href="mailto:support@tython.co">support@tython.co</a>.
+
+
+
 
