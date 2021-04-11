@@ -38,7 +38,9 @@ Here is the basic setup and definition of the data columns for our example.
 
 ```js
 // DatatablePlus.js
-export default class DatatablePlus extends LightningElement {
+import LightningDatatable from  'lightning/datatable';
+
+export default class DatatablePlus extends LightningDatatable {
     columns = [
       { label: 'Label', fieldName: 'name' },
       { label: 'Website', fieldName: 'website', type: 'url' },
