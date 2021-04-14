@@ -8,11 +8,7 @@
 
 3. Run `npm install` to bring in all other dependencies
 
-## Testing New Content
-
-To test updates locally run `npm test` and open http://localhost:4000
-
-## Blog Posts
+## Creating New Content
 
 ### Instructions for Creating a New Draft Post
 
@@ -45,6 +41,10 @@ To test updates locally run `npm test` and open http://localhost:4000
 2. Drop all related example code and files into the new folder
 
 3. Link to this folder from your post with the following syntax `[link]({{ site.examples_url }}{{ page.slug }})`
+
+## Testing New Content
+
+1. Run `npm test` to open http://localhost:4000 where the site will be hosted locally with livereload enabled
 
 ## Publishing New Content
 
