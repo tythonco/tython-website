@@ -1,13 +1,13 @@
 ---
 layout: post
 title: >-
-  LWC Tips: Extending Components 1
+  Mind the Lifecycle When Extending LWC
 description: 'Though component extension is powerful, there are some points to watch out for!'
 date: 2021-04-19T20:00:00.000Z
 categories: ['salesforce', 'development', 'lwc']
-keywords: ['lwc', 'javascript', 'code']
+keywords: ['lwc', 'javascript', 'code', 'inheritance']
 slug: >-
-  /lwc-tips-extending-components-1
+  /mind-lifecycle-when-extending-lwc
 ---
 
 [Andrew R Chen](https://www.tython.co/)
@@ -16,7 +16,7 @@ slug: >-
 
 ### Extension Caveats
 
-Lightning-Datatable row-click handling is not supported by Salesforce's base component. [We have to extend the component to achieve the functionality](https://tython.co/salesforce/development/lwc/2021/03/08/extend-lwc-datatable-with-row-click-handling.html). This is powerful, but there are hangups! Lets examine one of these sneaky side-effects.
+ Row-click handling is not currently supported by Salesforce's base Lightning-Datatable component. [In a previous post, we explored extending the component to achieve this functionality](https://tython.co/salesforce/development/lwc/2021/03/08/extend-lwc-datatable-with-row-click-handling.html). This is powerful, but there are hangups! Lets examine one of these sneaky side-effects.
 
 <br/>
 
@@ -61,7 +61,7 @@ const columns = [
 
 Take a look at the result: _Wasn't that first column supposed to be a lot wider?_
 
-![Extended Datatable w/ fixed width column.](/images/2021-04-19-lwc-tips-extending-components-1_table-before-example.png){: style="padding: 0 20px 20px;" }
+![Extended Datatable w/ fixed width column.](/images/2021-04-19-mind-lifecycle-when-extending-lwc_table-before-example.png){: style="padding: 0 20px 20px;" }
 
 <br/>
 
@@ -69,7 +69,7 @@ Take a look at the result: _Wasn't that first column supposed to be a lot wider?
 
 That first column should be considerably wider than the others! It is instead displaying with the same width despite it's "fixedWidth" setting!
 
-It turns out that when extending an LWC, defining a life-cycle method overrides the parent's implementation.
+_It turns out that when extending an LWC, defining a life-cycle method overrides the parent's implementation._
 
 This means that whatever logic contained in the parent method does not run.  If your extended component includes "connectedCallback", say bye-bye to parent's "connectedCallback". In our example, our "renderedCallback" supersedes the original. For Lightning-Datatable, it turns out that some important column-width adjustments happen in "renderedCallback". Our extension innocently wiped that functionality away.
 
@@ -98,7 +98,7 @@ renderedCallback() {
 
 This pattern ensures the parent logic runs first, followed by our custom logic. Check out the updated result.
 
-![Extended Datatable w/ fixed width column.](/images/2021-04-19-lwc-tips-extending-components-1_table-after-example.png){: style="padding: 0 20px 20px;" }
+![Extended Datatable w/ fixed width column.](/images/2021-04-19-mind-lifecycle-when-extending-lwc_table-after-example.png){: style="padding: 0 20px 20px;" }
 
 This will work for any of the life-cycle methods. For instance, if you override "connectedCallback", since Lightning-Datatable uses that method as well, we must call `super.connectedCallback` to maintain base functionality. Be warned, this is *not* covered in [Salesforce component documentation](https://developer.salesforce.com/docs/component-library/bundle/lightning-datatable/documentation) at the time of this writing.
 
@@ -106,4 +106,4 @@ This will work for any of the life-cycle methods. For instance, if you override 
 
 ### Equipped to Succeed
 
-You are now equipped with some deep knowledge, have fun building extended LWCs! If you'd like an assist, or have another Salesforce development project in mind, then give us a shout. We’d be happy to help!
+You are now equipped with some deep knowledge, have fun building extended LWCs! If you'd like an assist, or have another Salesforce development project in mind, then [give us a shout](mailto:support@tython.co). We’d be happy to help!
