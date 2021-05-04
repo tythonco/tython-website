@@ -29,6 +29,30 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/main.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48131161-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-48131161-1');
+      gtag('config', 'AW-974501857');
+    </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', { 'send_to': 'AW-974501857/-Q_TCIjv0o0CEOHv1tAD', 'event_callback': callback });
+        return false;
+      }
+    </script>
+
   </head>
   <body>
     
@@ -391,7 +415,7 @@
               <h2>We Should Chat</h2>
               <p>Provide an email address below to start a conversation about how we can help</p>
               <div class="row d-flex justify-content-center mt-5 ml-5 mr-5">
-                <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{return true;}">
+                <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{gtag_report_conversion('https://tython.co'); return true;}">
                   <div class="form-group">
                     <span class="icon icon-paper-plane"></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Enter email address">
