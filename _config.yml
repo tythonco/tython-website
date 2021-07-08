@@ -26,6 +26,7 @@ examples_url: "https://github.com/tythonco/tython-website/tree/master/examples"
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
+future: false
 markdown: kramdown
 theme: minima
 plugins:
