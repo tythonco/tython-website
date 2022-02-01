@@ -2,7 +2,7 @@ name: AutoPublish
 
 on:
   schedule:
-    - cron: '0 14 * * 1'
+    - cron: '0 14 * * 1-5'
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Jekyll Publish Drafts
-      uses: soywiz/github-action-jekyll-publish-drafts@master
+      uses: tythonco/github-action-jekyll-publish-drafts@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         jekyll_path: ./
