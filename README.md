@@ -6,7 +6,7 @@
 
 2. [Install Bundler & Jekyll](https://jekyllrb.com/docs/installation/)
 
-3. Run `npm install` to bring in all other dependencies
+3. Run `npm install` and then `bundle install` to bring in all other dependencies
 
 ## Creating New Content
 
