@@ -1,6 +1,10 @@
 name: AutoPublish
 
 on:
+  push:
+    branches:
+      - main
+      - master
   schedule:
     - cron: '0 14 * * 1-5'
   workflow_dispatch:
