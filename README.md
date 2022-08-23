@@ -63,3 +63,5 @@ should auto-publish the post once the publication date has been reached
 [Jekyll CheatSheet](https://devhints.io/jekyll)
 
 [Confluence to Markdown](https://github.com/tythonco/confluence-to-markdown)
+
+[GitHub Emoji Markdown CheatSheet](https://gist.github.com/rxaviers/7360908)
