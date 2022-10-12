@@ -14,9 +14,9 @@ slug:
 
 ### Falling into Shadow
 
-Lightning Web Components follow the Web Components standard of [encapsulation using Shadow DOM](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_dom). This means that strcuture and styles defined within an LWC will not affect other components, whether parent, child, or sibling. This is often Good! Style-rule collisions and unintended overrides can lead to spiralling development headaches when you just want some certain padding to be applied!
+Lightning Web Components follow the Web Components standard of [encapsulation using Shadow DOM](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_dom). This means that styles defined within an LWC will not affect other components, whether parent, child, or sibling. This is often Good! Style-rule collisions and unintended overrides can lead to spiraling development headaches when you just want some padding to be applied!
 
-However, in certain circumstances, you want that control over all components. In particular, we have found that integrating [Salesforce LWC Base Components](https://github.com/salesforce/base-components-recipes) into a specific custom theme sometimes cannot be achieved with only [styling hooks](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_components_css_custom_properties). In these specific situations we needed a way to *punch through the Shadow DOM*.
+However, in certain circumstances, you want that control over all components. In particular, we have found that integrating [Salesforce LWC Base Components](https://developer.salesforce.com/docs/component-library/overview/components) into a specific custom theme sometimes cannot be achieved with only [styling hooks](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_components_css_custom_properties). In these specific situations we needed a way to *punch through the Shadow DOM*.
 
 <br/>
 
@@ -36,8 +36,8 @@ Here we have a lightning-input component that we want to apply a custom border t
 <!-- demo.html -->
 <lightning-input
     class="target-element"
-    label="Demo"
-    value="code with Tython"
+    label="LWC Styling Demo"
+    value="Lets code with Tython!"
     style="border: 2px solid red"
 >
 </lightning-input>
@@ -45,7 +45,6 @@ Here we have a lightning-input component that we want to apply a custom border t
 
 This results in:
 
-<!-- EMBED IMG 1 HERE -->
 ![Base component Lightning-Input with attribute styling affecting the LWC host element only.](/images/2022-10-10-css-overriding-in-lwc-p1-1.png){: style="padding: 0 20px 20px; max-width: 420px;" }
 
 Uh-oh. What we wanted was to just surround the input element itself with the border. Instead, what we got was the border wrapping around the label as well! Assuming we absolutely must have that helpful label, we are going to need a different approach.
@@ -70,7 +69,6 @@ Lets set up our injection method:
 
 The result:
 
-<!-- EMBED IMG 2 HERE -->
 ![Base component Lightning-Input with internal input element styled.](/images/2022-10-10-css-overriding-in-lwc-p1-2.png){: style="padding: 0 20px 20px; max-width: 420px;" }
 
 Thats more like it! Lets step through what we are doing.
