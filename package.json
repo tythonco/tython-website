@@ -7,7 +7,7 @@
   "devDependencies": {
     "coffeescript": "^2.5.1",
     "confluence-to-markdown": "git+https://github.com/tythonco/confluence-to-markdown.git",
-    "open-cli": "^6.0.1"
+    "open-cli": "^7.1.0"
   },
   "scripts": {
     "draft": "bundle exec jekyll draft",
