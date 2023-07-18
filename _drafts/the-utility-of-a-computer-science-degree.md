@@ -41,3 +41,57 @@ mentoring experience, rejected the idea. While it might be fun, it wouldn't have
 effect on my daily career. With that in mind, if you are currently studying computer science,
 or have recently attained your degree in the field, here are some tips for how to create
 software that businesses can use to make themselves more efficient and profitable.
+
+## The Minutie Can Be Ignored
+
+Unless you're building operating systems or real-time systems, you're probably using a very
+high level language, probably JavaScript, but perhaps Python or some flavor of Java. According
+to Stack Overflow's 2023 developer survey, the top six (procedural) languages all include
+some form of garbage collection, so you probably don't need to worry about memory management at
+all.
+
+In a similar vein, speed isn't the highest priority for most software. There are exceptions,
+such as 3D graphics, video encoding, etc., but even in these cases there are libraries such as
+Apple's Metal framework, that can do the heavy lifting. The highest priority for most business
+software is that it works and as quickly as possible.
+
+## Learn the Development Tools
+
+There is more to software engineering than knowing how to write code. Almost every development
+platform will use a standard set of tools, and the better you know these tools, the more
+efficiently you'll create software. Generically, these tools include:
+
+- A text editor
+- A version control system
+- A command line shell
+
+My specific instances of these tools is Vim, git, and the Z Shell. Like any
+generalization, there are exceptions. For years I worked in a platform called FileMaker, where
+a text editor was unnecessary, version control difficult, and the command line seldom needed.
+But regardless of whether you're developing for the web, desktop, or mobile applications,
+you'll probably be working with a traditional text-based programming language, and these are
+the three tools you'll want to know regardless of your specific target.
+
+Depending on the target, there may be additional tools to know, such as an integrated
+development environment (VS Code being popular with Salesforce, Xcode pretty much necessary for
+Apple platforms), the browser tools for web development, perhaps even a graphics program like
+Photoshop if your development includes icon design.
+
+Given that Tython is a Salesforce software developer, here are some specific tools that we use
+every day:
+
+- The VS Code IDE (with the Vim plugin in some cases)
+- `git` for version control with GitHub for collaboration
+- Z Shell for the macOS developers and Bash for the Linux developers
+
+## Know Your Available Libraries
+
+Stub.
+
+## Automatically Test
+
+Stub.
+
+## Learn Continuously
+
+Stub.
