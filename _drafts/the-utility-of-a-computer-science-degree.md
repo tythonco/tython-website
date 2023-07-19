@@ -84,9 +84,26 @@ every day:
 - `git` for version control with GitHub for collaboration
 - Z Shell for the macOS developers and Bash for the Linux developers
 
+Learn tools deeply.
+
 ## Know Your Available Libraries
 
-Stub.
+Every programming language is more than the syntax of functions and loops. It comes with a
+library of reusable code. But the breadth of each library, and the naming of similar features
+differs across languages. Whatever language you're working with, read at least the name and
+description of every available tool. Yes, I do mean _every_ tool. You needn't do this in a
+single block of time, but take some time out of your schedule, perhaps 15 minutes each day, to
+read the documentation on a few built-in classes or functions.
+
+Working in Salesforce, this means we developers need to know about every available object and function in JavaScript and Apex. Notice I said "know about every available object," not "know every available object." You don't need to know how to use everything available, but you _do_ need to know everything that _is_ available.
+
+If you don't know that (to give a trivial example) JavaScript includes `Array.filter`, you will
+some day have a need to retain array elements that match a criterion and try to build it
+yourself. But if you have read that `Array.filter` exists, even if you don't remember the
+precise usage, you'll be able to quickly look it up.
+
+Reading through your current language's library will also help when languages have different
+names for similar features.
 
 ## Automatically Test
 
