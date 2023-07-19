@@ -55,7 +55,7 @@ such as 3D graphics, video encoding, etc., but even in these cases there are lib
 Apple's Metal framework, that can do the heavy lifting. The highest priority for most business
 software is that it works and as quickly as possible.
 
-## Learn the Development Tools
+## Learn the Standard Development Tools
 
 There is more to software engineering than knowing how to write code. Almost every development
 platform will use a standard set of tools, and the better you know these tools, the more
@@ -80,13 +80,16 @@ Photoshop if your development includes icon design.
 Given that Tython is a Salesforce software developer, here are some specific tools that we use
 every day:
 
-- The VS Code IDE (with the Vim plugin in some cases)
+- The VS Code IDE (with the Vim plugin in my case)
 - `git` for version control with GitHub for collaboration
 - Z Shell for the macOS developers and Bash for the Linux developers
 
-Learn tools deeply.
+Whichever set of tools you either choose are have chosen for you, know them well. Software
+engineers are like craftpeople, and just as a carpenter will create better woodworks if they
+know their jigsaw inside out, the better you know your tools and the features they offer,
+the more you'll be able to leverage them to save you time and produce better software.
 
-## Know Your Available Libraries
+## Know Your Libraries
 
 Every programming language is more than the syntax of functions and loops. It comes with a
 library of reusable code. But the breadth of each library, and the naming of similar features
@@ -95,20 +98,36 @@ description of every available tool. Yes, I do mean _every_ tool. You needn't do
 single block of time, but take some time out of your schedule, perhaps 15 minutes each day, to
 read the documentation on a few built-in classes or functions.
 
-Working in Salesforce, this means we developers need to know about every available object and function in JavaScript and Apex. Notice I said "know about every available object," not "know every available object." You don't need to know how to use everything available, but you _do_ need to know everything that _is_ available.
+Working in Salesforce, this means we developers need to know about every available object and
+function in JavaScript and Apex, as well as the various built-in Lightning Web Components and
+Lightning Design System features. Notice I said "know about every available object," not "know
+every available object." You don't need to know how to use everything available, but you _do_
+need to know everything that _is_ available.
 
 If you don't know that (to give a trivial example) JavaScript includes `Array.filter`, you will
 some day have a need to retain array elements that match a criterion and try to build it
 yourself. But if you have read that `Array.filter` exists, even if you don't remember the
-precise usage, you'll be able to quickly look it up.
+precise usage, you'll be able to quickly look up the documentation.
 
-Reading through your current language's library will also help when languages have different
-names for similar features.
-
-## Automatically Test
-
-Stub.
+This goes for your tools as well. Once you've gotten the basics of, for example, `git`, and
+have familiarized yourself with the available features of your languages' libraries, go back
+and do with `git` what you did with your language libraries: Read through the various options
+available so that you know they exist when you need them.
 
 ## Learn Continuously
 
-Stub.
+As a software engineer, you're never finished with your education, so I hope you enjoy learning. Technology, almost by definition, is an ever changing field. New languages are invented, new paradigms discovered.
+
+Your continuing education will generally take one of three forms:
+
+### Updates to Current Tools
+
+Languages, tools, and libraries are constantly updated. When they are you need to read the release notes so that your deep knowledge of the available features doesn't grow obsolete.
+
+### Learning from Others
+
+You don't know everything, and you never will. Take advantage of the generous developers out there who write blog posts about their process. Listen to podcasts that cover your industry. Attend conferences to learn how others have solved specific problems that they've come across, many of which will be similar if not identical to those you'll find.
+
+### Learning for Its Own Sake
+
+Spend some time learning a technology foreign to you just for the sake of learning something new. Even if you never use it professionally, there's utility in knowing how technologies you _don't_ use every day work. If, as a Salesforce developer, you're only familiar with JavaScript and Apex, I'd suggest learning Lisp or Python. I've often found that knowing how a different programming language works can improve my use of my daily languages.
