@@ -35,8 +35,8 @@ Now, it's not their fault that this was the case. In my mentoring experience, I 
 achieving a degree in computer science doesn't prepare a person for creating software to
 solve business problems. It is understandable why a CS degree path was likely chosen: until
 fairly recently, most universities rarely offered a degree in Software Engineering. This may be
-the case partly because universities are homes to academia, and in some contexts, "academic" is
-a synonym for "theoretical."
+the case partly because universities are homes to academia, and there's a reason that in some
+contexts "academic" is a synonym for "theoretical."
 
 I actually considered returning to school to get my degree in computer science, but after my
 mentoring experience, rejected the idea. It became apparent that such a degree wouldn't have
