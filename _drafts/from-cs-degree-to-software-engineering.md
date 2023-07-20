@@ -70,7 +70,7 @@ efficiently you'll create software. Generically, these tools include:
 - A command line shell
 - A version control system
 
-My specific instances of these tools is [Vim](https://www.vim.org), the [Z
+My specific instances of these tools are [Vim](https://www.vim.org), the [Z
 Shell](https://www.zsh.org), and [`git`](https://git-scm.com). Like any generalization, there
 are exceptions. For years, I worked in a platform called FileMaker, where a text editor was
 unnecessary, version control difficult, and the command line seldom needed. But regardless
@@ -84,7 +84,7 @@ development environment ([VS Code](https://code.visualstudio.com) being popular 
 platforms), the browser tools for web development, or perhaps a graphics program like Photoshop
 if your development includes icon design.
 
-Some specific tools that we at Tython, as a Salesforce developer, use every day:
+Some specific tools that we at Tython, as Salesforce developers, use every day:
 
 - The VS Code IDE (with the Vim plugin, in my case)
 - Z Shell for the macOS developers and [Bash](https://www.gnu.org/software/bash/) for the Linux
@@ -162,4 +162,4 @@ put your education to use in building algorithms and data structures at the very
 degree alone is not _sufficient_ for a software engineer. Familiarize yourself with your tools,
 continually upgrade your self-education, and don’t be shy to ask for a mentor’s guidance.
 
-Let us know if you found this helpful and whether you’d like to see more details on this topic.
+[Let us know](mailto:support@tython.co) if you found this helpful and whether you’d like to see more details on this topic.
