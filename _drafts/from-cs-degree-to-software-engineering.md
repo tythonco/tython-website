@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The Utility of a Computer Science Degree
+title: From CS Degree to Software Engineering
 description: ''
-date: 2023-07-27T20:00:00.000Z
+date: 2023-07-21T20:00:00.000Z
 categories: ['education']
 keywords: ['computer science']
-slug: /the-utility-of-a-computer-science-degree
+slug: /from-cs-degree-to-software-engineering
 ---
 
 [Chuck Ross](https://www.tython.co/)
