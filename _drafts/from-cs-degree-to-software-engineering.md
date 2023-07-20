@@ -2,7 +2,7 @@
 layout: post
 title: From CS Degree to Software Engineering
 description: ''
-date: 2023-07-21T20:00:00.000Z
+date: 2023-07-20T20:00:00.000Z
 categories: ['education']
 keywords: ['computer science']
 slug: /from-cs-degree-to-software-engineering
