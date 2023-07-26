@@ -36,7 +36,7 @@ STUB FOR MARTIN
 ### Planning and executing your migration to Salesforce DX
 ##### by Kevin Poorman
 
-[Kevin Poorman](https://twitter.com/codefriar) gave a great talk on migrating development to Salesforce Developer Experience, knnown colloquially as SFDX. Speaking about the failed migration he experienced at [Chief](chief.com), Kevin shared the lessons he learned, many of which apply to any large project.
+[Kevin Poorman](https://twitter.com/codefriar) gave a great talk on migrating development to Salesforce Developer Experience, known colloquially as SFDX. Speaking about the failed migration he experienced at [Chief](chief.com), Kevin shared the lessons he learned, many of which apply to any large project.
 
 Two solid insights he offered that are applicable beyond migrating to SFDX-based development were to ensure management buy-in and having a development culture that encourages education and discovery. Development is difficult enough without the support of management for both the project and the continuing education of the team.
 
