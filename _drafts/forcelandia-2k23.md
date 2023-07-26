@@ -18,7 +18,7 @@ slug:
 
 In mid July, for the first time since 2019, the Tython team met in Portland for the annual Forcelandia conference to learn about "APIs and IPAs". Forcelandia has always been one of the team's favorite conferences since it has a specific focus on software engineering in the Salesforce space with content geared toward developers and architects. As usual, this year's conference did not disappoint!
 
-Our trip to Portland was filled with great Salesforce knowledge sharing and some delicious local brews, but a key highlight for Tython was meeting in person with our newest team member--Chuck Ross--who had just started the week prior to the conference. :wave:
+Our trip to Portland was filled with great Salesforce knowledge sharing and some delicious local brews, but a key highlight for Tython was meeting in person with our newest team member &mdash; Chuck Ross &mdash; who had just started the week prior to the conference. :wave:
 
 ### Back to School
 
@@ -36,7 +36,9 @@ STUB FOR MARTIN
 ### Planning and executing your migration to Salesforce DX
 ##### by Kevin Poorman
 
-STUB FOR CHUCK
+[Kevin Poorman](https://twitter.com/codefriar) gave a great talk on migrating development to Salesforce Developer Experience, knnown colloquially as SFDX. Speaking about the failed migration he experienced at [Chief](chief.com), Kevin shared the lessons he learned, many of which apply to any large project.
+
+Two solid insights he offered that are applicable beyond migrating to SFDX-based development were to ensure management buy-in and having a development culture that encourages education and discovery. Development is difficult enough without the support of management for both the project and the continuing education of the team.
 
 ### Closing Keynote
 ##### by Rafael Hernandez
