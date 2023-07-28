@@ -31,7 +31,11 @@ Eclectic watering holes aside, the team did find time to sit in on some fantasti
 ### Apex: Past, Present, and Future
 ##### by Christian Carter
 
-STUB FOR MARTIN
+It was great to hear about the development of the Apex language from someone with such deep knowledge on the subject. We got some insight on how things work behind the scenes and some of the new features that are on the horizon (safe-harbor of course). 
+
+One of the things that caught my attention was adding support for generics in Apex - beyond the builtin types `list`, `map`, `set`, etc.. I've found myself wishing Apex had this feature on a few projects we've worked on, and it's great to see they are planning on adding support for it.  
+
+Another future feature that I found very interesting was the ability to calculate formulas directly in Apex, without needing to access the database or even have the formula saved as a formula field. At Tython, we've actually already done this as part of one of the projects we've worked on. Ours isn't 100% feature complete (yet), but it's a powerful tool, and I know the Salesforce community will appreciate having it once Salesforce adds this as an official part of the Apex language. 
 
 ### Planning and executing your migration to Salesforce DX
 ##### by Kevin Poorman
