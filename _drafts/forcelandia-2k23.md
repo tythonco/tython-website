@@ -24,7 +24,7 @@ Our trip to Portland was filled with great Salesforce knowledge sharing and some
 
 ![McMenamins-Kennedy-School](/images/2023-07-28-forcelandia-2k23-mcmenamins-kennedy-school.jpeg)
 
-In true Portland style, even the venue for Forcelandia is unique as the conference is held in the [Kennedy Elementary School](https://www.mcmenamins.com/kennedy-school), has been repurposed into a hotel and event space. Although we managed to stay out of trouble, it was very tempting to check out the "Detention Bar" and then hide out in the "Boiler Room" to avoid the heat. :laughing:
+In true Portland style, even the venue for Forcelandia is unique as the conference is held in the [Kennedy Elementary School](https://www.mcmenamins.com/kennedy-school), which has been repurposed into a hotel and event space. Although we managed to stay out of trouble, it was very tempting to check out the "Detention Bar" and then hide out in the "Boiler Room" to avoid the heat. :laughing:
 
 Eclectic watering holes aside, the team did find time to sit in on some fantastic sessions as well; here are a few of our favorite talks from the conference.
 
