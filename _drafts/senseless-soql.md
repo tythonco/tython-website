@@ -16,9 +16,10 @@ slug:
   <img alt="" src="/images/2023-11-03-senseless-soql-doesnt-make-sense.gif" />
 </p>
 
-As a Salesforce professional you may be used to seeing quirky behavior due to the many nuances of the platform. But today we wanted to share with you some things that...
+As a Salesforce professional you may be used to seeing quirky behavior due to the many nuances of the platform. Recently we came across some special SOQL behavior that
+we'd like to spotlight. To put it simply, the following...
 
-Don't. Make. Sense.
+Doesn't. Make. Sense.
 
 ### It All Depends on Your Point of View
 
@@ -45,8 +46,7 @@ two posts on the Salesforce StackExchange where others noticed the same odd beha
 
 ### Elementary Mathematics
 
-The next bit of senselessness first involves dusting off the old math book.
-Do you remember the Symmetric Property of Equality from your elementary mathematics? No? That's okay - we'll refresh your memory. This property states that
+Recall the *Symmetric Property of Equality* which states:
 
 `If a = b, then b = a`
 
@@ -63,14 +63,20 @@ After doing this, you can run the following command to see how SOQL behaves in a
 
 Note the following from the resulting log file:
 
->~~~ Searching for tab definition by DurableId ~~~\
+>\~\~\~ Searching for tab definition by DurableId ~\~\~\
+\
 Searching for tab definition where TabDefinition.DurableId = PermissionSetTabSetting.Name (SenselessSOQL__c)\
+\
 No tab definition found where TabDefinition.DurableId = PermissionSetTabSetting.Name (SenselessSOQL__c)\
 \
-~~~ Searching for tab definition by SObjectName ~~~\
+\~\~\~ Searching for tab definition by SObjectName \~\~\~\
+\
 Searching for tab definition where TabDefinition.SObjectName = PermissionSetTabSetting.Name (SenselessSOQL__c)\
+\
 Found tab definition by matching TabDefinition.SObjectName (SenselessSOQL__c) to PermissionSetTabSetting.Name (SenselessSOQL__c)\
+\
 Now running inverse search by matching PermissionSetTabSetting.Name to TabDefinition.SObjectName (SenselessSOQL__c)\
+\
 Found permission set tab setting by matching PermissionSetTabSetting.Name (SenselessSOQL__c) to TabDefinition.SObjectName (SenselessSOQL__c) meaning matching is bidirectional ✔
 
 From an Anonymous Apex context, the `TabDefinition` record relating to the `PermissionSetTabSetting` pulled from our permission set is discoverable
@@ -84,17 +90,26 @@ So far this makes sense, but the wheels come off once we move to a LWC context.
 In Salesforce, navigate to `SenselessSOQL (LWC)` via the App Launcher. Here you will see an output similar to the following (though
 of course your record ids will be slightly different):
 
->~~~ Searching for tab definition by DurableId ~~~\
+>\~\~\~ Searching for tab definition by DurableId \~\~\~\
+\
 Searching for tab definition where TabDefinition.DurableId = PermissionSetTabSetting.Name (01rRt000002xgoW)\
+\
 Found tab definition by matching TabDefinition.DurableId (0KDRt000002xgoWOAQ) to PermissionSetTabSetting.Name (01rRt000002xgoW) even though 0KDRt000002xgoWOAQ != 01rRt000002xgoW ¯\\_(ツ)_/¯\
+\
 Searching for permission set tab setting where PermissionSetTabSetting.Name = 0KDRt000002xgoWOAQ\
+\
 No permission set tab setting found where PermissionSetTabSetting.Name = 0KDRt000002xgoWOAQ so it seems the automagic only works one way... ¯\\_(ツ)_/¯\
+\
 Swapping the tab definition key prefix (0KD) in TabDefinition.DurableId (0KDRt000002xgoWOAQ) with the key prefix for CustomTabDefinition (01r) to create a value of 01rRt000002xgoW\
+\
 Searching for permission set tab setting where PermissionSetTabSetting.Name = 01rRt000002xgoW\
+\
 Found permission set tab setting by matching PermissionSetTabSetting.Name (01rRt000002xgoW) to 01rRt000002xgoW meaning swapping key prefixes works... (ツ)\
 \
-~~~ Searching for tab definition by SObjectName ~~~\
+\~\~\~ Searching for tab definition by SObjectName \~\~\~\
+\
 Searching for tab definition where TabDefinition.SObjectName = PermissionSetTabSetting.Name (01rRt000002xgoW)\
+\
 No tab definition found where TabDefinition.SObjectName = PermissionSetTabSetting.Name (01rRt000002xgoW)
 
 To start, note that the `TabDefinition` record relating to the `PermissionSetTabSetting`
@@ -112,7 +127,7 @@ We cannot use SOQL to find the related `PermissionSetTabSetting` record by match
 
 Finally, if we manually swap the key prefixes on the inverse search (as the SOQL automagic from the initial search appears to be doing) then we *are* able to find the related `PermissionSetTabSetting` record! :raised_hands:
 
-So tying this back to the Symmetric Property of Equality, it would make sense that
+So tying this back to the *Symmetric Property of Equality*, it would make sense that
 
 `If TabDefinition.DurableId = PermissionSetTabSetting.Name, then PermissionSetTabSetting.Name = TabDefinition.DurableId`
 
@@ -122,4 +137,4 @@ However, as we now know, SOQL can be senseless.
   <img alt="" src="/images/2023-11-03-senseless-soql-meme.jpeg" />
 </p>
 
-If you'd like to learn more about the Permissions Assistant tool we're building, or if you have your own SOQL stories to share, please [contact us](mailto:support@tython.co)!
+If you have your own SOQL stories to share, or if you think the Permissions Assistant tool we are building can help restore some sense to your org's permissions quagmire, please [contact us](mailto:support@tython.co)!
