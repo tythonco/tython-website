@@ -2,7 +2,7 @@
 layout: post
 title: Senseless SOQL
 description:
-date: 2023-11-03T20:00:00.000Z
+date: 2023-11-07T09:00:00.000Z
 categories: ['salesforce', 'soql']
 keywords: ['permissions', 'soql']
 slug:
@@ -13,7 +13,7 @@ slug:
 <br/>
 
 <p align="center">
-  <img alt="" src="/images/2023-11-03-senseless-soql-doesnt-make-sense.gif" />
+  <img alt="" src="/images/2023-11-07-senseless-soql-doesnt-make-sense.gif" />
 </p>
 
 As a Salesforce professional you may be used to seeing quirky behavior due to the many nuances of the platform. Recently we came across some special SOQL behavior that
@@ -41,7 +41,7 @@ two posts on the Salesforce StackExchange where others noticed the same odd beha
 </sup>
 
 <p align="center">
-  <img alt="" src="/images/2023-11-03-senseless-soql-from-a-certain-point-of-view.jpeg" />
+  <img alt="" src="/images/2023-11-07-senseless-soql-from-a-certain-point-of-view.jpeg" />
 </p>
 
 ### Elementary Mathematics
@@ -138,7 +138,7 @@ So tying this back to the *Symmetric Property of Equality*, it would make sense 
 However, as we now know, SOQL can be senseless.
 
 <p align="center">
-  <img alt="" src="/images/2023-11-03-senseless-soql-meme.jpeg" />
+  <img alt="" src="/images/2023-11-07-senseless-soql-meme.jpeg" />
 </p>
 
 If you have your own SOQL stories to share, or if you think the Permissions Assistant tool we are building can help restore some sense to your org's permissions quagmire, please [contact us](mailto:support@tython.co)!
