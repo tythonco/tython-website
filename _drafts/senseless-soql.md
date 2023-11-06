@@ -57,6 +57,10 @@ with this command:
 
 `sf project deploy start -d force-app/main -o [YourOrgAliasOrUsername]`
 
+Next, assign the project permission set to your user with this command:
+
+`sf org assign permset -n SenselessSOQL -o [YourOrgAliasOrUsername]`
+
 After doing this, you can run the following command to see how SOQL behaves in an Anonymous Apex context:
 
 `sf apex run -f anonApex.apex -o [YourOrgAliasOrUsername] > anonApex.log`
