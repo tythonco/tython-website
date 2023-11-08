@@ -417,16 +417,16 @@
               <div class="row d-flex justify-content-center mt-5 ml-5 mr-5">
                 <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{gtag_report_conversion('https://tython.co'); return true;}">
                   <div class="form-group">
-                    <span class="icon icon-paper-plane"></span>
+                    <span onclick="$('.subscribe-form').submit()" class="icon icon-paper-plane"></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Enter email address">
                     <input class="d-none" type="text" name="first_name" value="Tython Homepage"/>
                     <input class="d-none" type="text" name="last_name" value="Website Visitor"/>
                     <input class="d-none" type="text" name="company" value="Unknown"/>
                     <input class="d-none" type="text" name="lead_source" value="Tython Website"/>
-                    <input type="hidden" name='captcha_settings' value='{"keyname":"Tython_Google_reCaptcha","fallback":"true","orgId":"00DE0000000I7Hk","ts":""}'>
-                    <input type="hidden" name="oid" value="00DE0000000I7Hk">
+                    <input type="hidden" name='captcha_settings' value='{"keyname":"Tython_Google_reCaptcha","fallback":"true","orgId":"00Df4000003BLEJ","ts":""}'>
+                    <input type="hidden" name="oid" value="00Df4000003BLEJ">
                     <input type="hidden" name="retURL" value="https://tython.co/">
-                    <input class="hiddenSubmit" type="submit" name="submit"/>                      
+                    <input class="hiddenSubmit" type="submit" name="submit"/>
                   </div>
                   <div class="g-recaptcha mt-4" data-sitekey="6LfccHMUAAAAAFA6d5plIV_cUabAtsHzdiIlImtK"></div>
                 </form>                
