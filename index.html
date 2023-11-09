@@ -43,6 +43,9 @@
     </script>
     <script>
       function gtag_report_conversion(url) {
+        // NB: If this function is called from a form's submit handler
+        //   do not pass a value to the url parameter or the form
+        //   submission will not process before the user is redirected!
         var callback = function () {
           if (typeof(url) != 'undefined') {
             window.location = url;
@@ -415,7 +418,7 @@
               <h2>We Should Chat</h2>
               <p>Provide an email address below to start a conversation about how we can help</p>
               <div class="row d-flex justify-content-center mt-5 ml-5 mr-5">
-                <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Df4000003BLEJ" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{gtag_report_conversion('https://tython.co'); return true;}">
+                <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Df4000003BLEJ" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{gtag_report_conversion(); return true;}">
                   <div class="form-group">
                     <span onclick="$('.subscribe-form').submit()" class="icon icon-paper-plane"></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Enter email address">
