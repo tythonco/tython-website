@@ -420,7 +420,7 @@
               <div class="row d-flex justify-content-center mt-5 ml-5 mr-5">
                 <form class="subscribe-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Df4000003BLEJ" method="POST" onsubmit="if (grecaptcha.getResponse() == ''){$('.g-recaptcha').effect('shake');return false;}else{gtag_report_conversion(); return true;}">
                   <div class="form-group">
-                    <span onclick="$('.subscribe-form').submit()" class="icon icon-paper-plane"></span>
+                    <span onclick="$('.hiddenSubmit').click()" class="icon icon-paper-plane"></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Enter email address">
                     <input class="d-none" type="text" name="first_name" value="Tython Homepage"/>
                     <input class="d-none" type="text" name="last_name" value="Website Visitor"/>
