@@ -33,13 +33,13 @@ While still deep in development, it can already aid with all the above challenge
 
 ### What Is Tython Permissions Assistant?
 
-Permissions Assistant is a packaged app that clarifies an org's permission structure to grant greater insight and well-informed action. Once installed, it runs completely on-platform. Lets scope some of it's key features!
+Permissions Assistant is a packaged app that clarifies an org's permission structure to grant greater insight and well-informed action. Once installed, it runs completely on-platform. Lets scope some of its key features!
 
 <br/>
 
 #### Permission Set Summary
 
-You can use Permissions Assistant to inspect a given permission set all from one page. Just filter and then select a permission set (or profile!) to inspect it all quickly and conveniently.
+You can use Permissions Assistant to inspect a given permission set all from one page. Just filter and then select a permission set (or profile!) to view all enabled permissions on the same screen. Quickly and conveniently switch between different permission sets.
 
 Permissions are broken down into several main categories. We can see key information, such as object and field-level access, at a glance. View only the enabled system permissions.
 
@@ -51,7 +51,7 @@ Permissions are broken down into several main categories. We can see key informa
 
 #### User Access Summary
 
-With Permissions Assistant, you can see everything* a given user can access from one place. Simply bring up a target user, then inspect their _combined_ permissions. These results pull in all permission sets (and profile) they have been assigned.
+With Permissions Assistant, you can see everything* a given user can access from one place. Simply bring up a target user, then inspect their _combined_ permissions. These results pull in all permission sets (and the profile) they have been assigned.
 
 While viewing results, each permission item can also display the list of permission sets that enable it.
 
@@ -87,7 +87,7 @@ The example screen shows results from an org-wide permission set analysis. These
 
 ### Permission to Engage (with us!)
 
-Future posts will explore each of the above capabilities (and more!) of this app in greater detail. We will also dive into some interesting challenges behind it's development.
+Future posts will explore each of the above capabilities (and more!) of this app in greater detail. We will also dive into some interesting challenges behind its development.
 
 There is one more important question to ask:
 
