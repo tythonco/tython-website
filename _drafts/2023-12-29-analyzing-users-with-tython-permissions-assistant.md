@@ -9,15 +9,25 @@ slug:
 ---
 
 [Andrew Chen](https://www.linkedin.com/in/ndrewr/)
-<br/>
+
+<div style="padding: 0.75rem 1.25rem; background-color: #eaeafa;  border: 1px solid #dadada; border-radius: 6px; margin: 2rem 1rem;">
+    <h4>Other Posts In This Series</h4>
+    <ul>
+        <li>
+            <a target="_blank" href="https://tython.co/permissions/apps/2023/11/28/introducing-tython-permissions-assistant.html">
+                Introducing Tython Permissions Assistant
+            </a>
+        </li>
+    </ul>
+</div>
 
 ### A Recipe for Frustration
 
 Managing permissions in Salesforce has for years (decades?) been a thorn in the side of admins. Getting to the bottom of "Who can see what and Why" is, like my scrambled eggs recipe, harder than it has any right being. The team at Tython set out to build a tool that assists in getting permissions under control. Enter Tython Permissions Assistant (currently in beta).
 
-Permissions Assistant is an app that equips admins with tools to pry open the permissions black-box. This post focuses on the User Analysis utility. Future blog posts in this series will deep dive into Permission Assistant’s other operations.
+Permissions Assistant is an app that equips admins with tools to pry open the permissions black-box. All functionality occurs on-platform, right in your org. This post focuses on the User Analysis utility. Future blog posts in this series will deep dive into Permission Assistant’s other operations.
 
-When whipping up a recipe, unexpected ingredients can jeopardize the batch. Missing key ingredients can likewise delay or spoil the result. Assigning the wrong permissions, or withholding needed ones, is a recipe for frustration. User Analysis reveals everything* a user can access in their org with a few quick clicks.
+When whipping up a recipe, unexpected ingredients can jeopardize the batch. Missing key ingredients can likewise delay or spoil the result. Assigning the wrong permissions, or withholding needed ones, is a recipe for frustration. User Analysis reveals everything* a user can access with a few quick clicks.
 
 <br/>
 
@@ -100,5 +110,7 @@ Permissions Assistant will be available on the App Exchange in early 2024. And w
 The team at Tython is always open to feedback! Interested in what we have in the oven? Some other functionality you would like to see? [Drop us a line, anytime](mailto:support@tython.co?subject=Permissions%20Assistant%20Demo)!
 
 <br/>
+
+---
 
 <sup><sub>* OK, almost everything. Service Providers and External Credentials are on the Todo list.</sub></sup>
