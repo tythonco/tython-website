@@ -23,7 +23,7 @@ slug:
 
 ### A Recipe for Frustration
 
-Managing permissions in Salesforce has for years (decades?) been a thorn in the side of admins. Getting to the bottom of "Who can see what and Why" is, like my scrambled eggs recipe, harder than it has any right being. The team at Tython set out to build a tool that assists in getting permissions under control. Enter Tython Permissions Assistant (currently in beta).
+Managing permissions in Salesforce has for years (decades?) been a thorn in the side of admins. Getting to the bottom of "Who can see what and Why" is, like my scrambled eggs recipe, harder than it has any right being. The team at Tython set out to build a tool that assists in getting permissions under control. Enter Tython Permissions Assistant.
 
 Permissions Assistant is an app that equips admins with tools to pry open the permissions black-box. All functionality occurs on-platform, right in your org. This post focuses on the User Analysis utility. Future blog posts in this series will deep dive into Permission Assistant’s other operations.
 
@@ -105,9 +105,9 @@ Easily filter down to only what either user can access that the other cannot.
 
 Tython Permissions Assistant User Analysis brings order to a chaotic kitchen. It lays out user access neatly on the counter. Combined with Permissions Assistant's other tools, admins can really get cooking!
 
-Permissions Assistant will be available on the App Exchange in early 2024. And we are just getting started.
+Permissions Assistant is currently in invite-only beta, but will be available on the AppExchange in early 2024. And we are just getting started.
 
-The team at Tython is always open to feedback! Interested in what we have in the oven? Some other functionality you would like to see? [Drop us a line, anytime](mailto:support@tython.co?subject=Permissions%20Assistant%20Demo)!
+The team at Tython is always open to feedback! Interested in what we have in the oven? Want to request access to the Permissions Assistant beta?  [Drop us a line, anytime](mailto:support@tython.co?subject=Permissions%20Assistant%20Demo)!
 
 <br/>
 
