@@ -192,23 +192,23 @@ Now we can use our new component to place a popup window wherever we like.
 ```
 
 Here you can see that we're overriding the icon name, alternative text, and title, but
-accpeting the defautl variant.
+accepting the default variant.
 
 ![Popover Example](/images/2024-01-12-popover.png)
 
-## Conclusion
+## Customize
 
 You'll find all of the code for this component in our [GitHub][1] repository. We'd love to see
 what improvements you might make that could be rolled into this new open source tool.
 
-The Lightning Design System offers many addition features that we could reveal via the API,
-such as headers, footers. Be sure to take a look at the [documentation][2] to become familiar
-with all of the options. In fact, I consider this a first version of this component, and look
-forward to expanding the functionality with addition features until, ideally, all of the LDS
-features are supported via the API.
+The Lightning Design System offers many additional features that we could reveal via the API,
+such as headers and footers. Be sure to take a look at the [documentation][2] to become
+familiar with all of the options. In fact, I consider this a first version of this component,
+and look forward to expanding the functionality with additional features until, ideally, all of
+the LDS features are supported via the API.
 
 What features would you find most useful? [Drop us a line][3] and let us know.
 
 [1]: https://github.com/tythonco/lwc-popover-window
 [2]: https://www.lightningdesignsystem.com/components/popovers/
-[3]: mailto:support@tython.co?subject=Permissions%20Assistant%20Demo
+[3]: mailto:support@tython.co?subject=Popup%20Window%20Article
