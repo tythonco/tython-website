@@ -65,7 +65,7 @@ section {
 
 The first CSS rule is pretty self-explanitory. Within the HTML, we're using the `lightning-icon`
 component, but this icon will be acting like a button, and buttons should show a pointer when
-they're hovered over. This rule take care of that.
+they're hovered over. This rule takes care of that.
 
 Next we have our `section` rule. Here we set the position to `fixed` so that the component
 doesn't jump around when we open and close the popover window.
@@ -113,7 +113,7 @@ Now let's take a look at the HTML:
 ```
 
 We have just a few tags in our top-level `template` tag. First we have our clickable icon,
-reading various attributes from out JavaScript class. Then our `div` class for capturing
+reading various attributes from our JavaScript class. Then our `div` class for capturing
 background clicks. The meat of the component is the `section` tag, which uses various SLDS
 classes to provide the popover behavior. Within the `section` we provide a `slot` for the
 caller to place whatever components they like inside.
@@ -126,7 +126,7 @@ Let's see how little JavaScript we need to make all of this work:
 import { LightningElement, api } from 'lwc';
 
 /**
- * A geneeric popover button utility component that displays the specified icon name with the
+ * A generic popover button utility component that displays the specified icon name with the
  * given attributes.
  * @param iconName: Passed onto the button's `iconName` attribute
  * @param altText: Passed onto the button's `alternativeText` attribute
