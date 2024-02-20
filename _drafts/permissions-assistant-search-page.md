@@ -1,0 +1,92 @@
+---
+layout: post
+title: Permissions Assistant Search Page
+description: Scry all access vectors with Tython Permissions Assistant Permission Search.
+date: 2024-02-23T09:00:00.000Z
+categories: ['permissions', 'apps']
+keywords: ['permissions', 'permissions assistant', 'admin', 'tools', 'search']
+slug: 
+---
+
+[Andrew Chen](https://www.linkedin.com/in/ndrewr/)
+
+<!-- INSERT TABLE OF CONTENTS -->
+
+### The Best Defense is a Good Offense?
+
+Org admins are commonly tasked with administrating hundreds, even thousands of users. They control and meter access to powerful functionality and valuable data using dozens, even hundreds, of permission sets and profiles. When something goes wrong because of this allowance, whether accidental or on purpose, serious damage can result.
+
+Gandhi once said:
+
+>Nobody can hurt me without my permission.
+
+At the end of the day, users do what they have been permitted to do. The responsibilty falls on the capable shoulders of the admin to divert such disasters. The stakes are high!
+
+Salesforce has not made it particuarly easy to get a handle on managing user access at scale. To be fair, there have been efforts introduced to mitigate these challenges. Thus far, [results have been mixed, unreliable or not detailed enough](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FeF99UAF&tab=r
+).
+
+Tython Permissions Assistant aims to equip admins with the means to get user access in order. "Playing good defense" by seizing the initiative and heading off unwarrated access. This post places the magnifying glass on Permission Search, a tool to quickly identify HOW and TO WHOM specific permissions have been granted.
+
+<br/>
+
+### Establish Search Parameters
+
+Permission Search reveals what permission sets and profiles enable access to a target you specify. Step one is to select the potentially perilous permission. There are a couple of easy methods to do this.
+
+When the page loads you are greeted with a *permission tree*. Within this tree are all* of the items that can be made accessible via permission sets and profiles, organized by category. Simply drill into the category of permission you want to target. Even fine-grained targets, such as "Read" or “Edit” access on a particular custom field on a particular object, can be searched.
+
+Once pinpointed, a click trains our sights on the quarry!
+
+<!-- INSERT PICTURE OF PERM TREE -->
+
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2023-12-29-pa-user-analysis-compare-users.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Target selection .</p>
+</div>
+<br/>
+
+Selection can also be done by utilizing the integrated finder. Type in the target and select from the resulting list. Notice you can select multiple targets.
+
+<!-- INSERT PICTURE OF FINDER -->
+
+So far, so easy! Before we kick off the search, there is one important option to consider.
+
+If selecting multiple targets, “exact matches only” can be specified. This option controls whether or not resulting permission sets and profiles have to contain *all* of the selected permissions (“exact matches” checked) or just one (“exact matches” unchecked, the default).
+
+<!-- INSERT PICTURE OF EXACT MATCHES OPTION  -->
+
+With that, the hunt is on! 
+
+### Scrutinize the Round Up
+
+Results have loaded and, like a police lineup, we have rounded up the suspects.
+
+<!-- INSERT PICTURE OF SEARCH RESULTS -->
+
+Now we can see where access is being granted.
+
+The list of permission sets and profiles contain the permission(s) we are pursuing. Clicking on these results opens up a window to further dissect the permission set or profile in detail.
+
+<!-- INSERT PICTURE OF DETAILS MODAL -->
+
+If there are active user assignments, a section with a filtered list of users can be reviewed. These are the users who have been granted access to the permissions we are targeting. Click on a user in the list to view which permission sets and profiles from the search results have been assigned to them.
+
+<!-- INSERT PICTURE OF USER LIST -->
+
+### The Spider-Man Lesson
+
+Some Version of Peter Parker once uttered:
+
+> When you can do the things that I can, but you don't, and then the bad things happen? They happen because of you.
+
+The power of prevention is ultiamtely in the hands of the admin. Tython Permission Search grant admins insight into both How a permission is enabled as well as Who holds those privileges. From here, the empowered admin can reach into their playbook and decide What actions to take.
+
+Perhaps remove some permissions from a certain profile? Revoke a particularly precarious assignment from certain users? Clone and modify a mostly on-point permission set? Maybe even combine these results with other Permissions Assistant tools like deep User Analysis and Permission Set Similarity Analysis to do some "spring cleaning"?
+
+Got other use cases for Permission Search? The team at Tython is always open to feedback! Interested in other tools to play your offense? [Reach out to request access to the Permissions Assistant beta](mailto:support@tython.co?subject=Permissions%20Assistant%20Demo)!
+
+<br/>
+
+---
+
+<sup><sub>* OK, almost everything. Service Providers and External Credentials are on the Todo list.</sub></sup>
