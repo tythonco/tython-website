@@ -37,23 +37,29 @@ When the page loads you are greeted with a *permission tree*. Within this tree a
 
 Once pinpointed, a click trains our sights on the quarry!
 
-<!-- INSERT PICTURE OF PERM TREE -->
-
 <div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
-    <img src="/images/2023-12-29-pa-user-analysis-compare-users.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
-    <p style="color: #6a6a6a; font-size: .75rem;">Target selection .</p>
+    <img src="/images/2024-02-20-pa-perm-search-tree-selection.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Using the Permission Tree for selections.</p>
 </div>
 <br/>
 
 Selection can also be done by utilizing the integrated finder. Type in the target and select from the resulting list. Notice you can select multiple targets.
 
-<!-- INSERT PICTURE OF FINDER -->
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2024-02-20-pa-perm-search-finder-selection.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Using the Finder for selections.</p>
+</div>
+<br/>
 
 So far, so easy! Before we kick off the search, there is one important option to consider.
 
 If selecting multiple targets, “exact matches only” can be specified. This option controls whether or not resulting permission sets and profiles have to contain *all* of the selected permissions (“exact matches” checked) or just one (“exact matches” unchecked, the default).
 
-<!-- INSERT PICTURE OF EXACT MATCHES OPTION  -->
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2024-02-20-pa-perm-search-exact-match.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Exact matches option when working with multiple selections.</p>
+</div>
+<br/>
 
 With that, the hunt is on! 
 
@@ -61,17 +67,31 @@ With that, the hunt is on!
 
 Results have loaded and, like a police lineup, we have rounded up the suspects.
 
-<!-- INSERT PICTURE OF SEARCH RESULTS -->
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2024-02-20-pa-perm-search-result-list.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Displaying post-search results.</p>
+</div>
+<br/>
 
 Now we can see where access is being granted.
 
 The list of permission sets and profiles contain the permission(s) we are pursuing. Clicking on these results opens up a window to further dissect the permission set or profile in detail.
 
 <!-- INSERT PICTURE OF DETAILS MODAL -->
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2024-02-20-pa-perm-search-result-detail-modal.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Inspecting results in more detail.</p>
+</div>
+<br/>
 
 If there are active user assignments, a section with a filtered list of users can be reviewed. These are the users who have been granted access to the permissions we are targeting. Click on a user in the list to view which permission sets and profiles from the search results have been assigned to them.
 
 <!-- INSERT PICTURE OF USER LIST -->
+<div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
+    <img src="/images/2024-02-20-pa-perm-search-user-access-list.png" alt="Comparing user permissions side-by-side" title="Comparing users, all permissions" style="max-width:700px;"/>
+    <p style="color: #6a6a6a; font-size: .75rem;">Identify users who carry the permission and where they got it from.</p>
+</div>
+<br/>
 
 ### The Spider-Man Lesson
 
