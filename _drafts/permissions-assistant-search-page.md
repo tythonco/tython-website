@@ -10,7 +10,22 @@ slug:
 
 [Andrew Chen](https://www.linkedin.com/in/ndrewr/)
 
-<!-- INSERT TABLE OF CONTENTS -->
+<div style="padding: 0.75rem 1.25rem; background-color: #eaeafa;  border: 1px solid #dadada; border-radius: 6px; margin: 2rem 1rem;">
+    <h4>Other Posts In This Series</h4>
+    <ul>
+        <li>
+            <a target="_blank" href="https://tython.co/permissions/apps/2023/11/28/introducing-tython-permissions-assistant.html">
+                Introducing Tython Permissions Assistant
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://tython.co/permissions/apps/2024/01/03/2024-01-03-analyzing-users-with-tython-permissions-assistant.html">
+                Analyzing Users with Tython Permissions Assistant
+            </a>
+        </li>
+    </ul>
+</div>
+
 
 ### The Best Defense is a Good Offense?
 
@@ -75,7 +90,6 @@ Results have loaded and, like a police lineup, we have rounded up the suspects. 
 
 The list of permission sets and profiles contain the permission(s) we are pursuing. Clicking on these results opens up a window to further dissect the permission set or profile in detail.
 
-<!-- INSERT PICTURE OF DETAILS MODAL -->
 <div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
     <img src="/images/2024-02-20-pa-perm-search-result-detail-modal.png" alt="Inspecting results in more detail" title="Inspecting results in more detail" style="max-width:700px;"/>
     <p style="color: #6a6a6a; font-size: .75rem;">Inspecting results in more detail.</p>
@@ -84,7 +98,6 @@ The list of permission sets and profiles contain the permission(s) we are pursui
 
 If there are active user assignments, a section with a filtered list of users can be reviewed. These are the users who have been granted access to the permissions we are targeting. Click on a user in the list to view which permission sets and profiles from the search results have been assigned to them.
 
-<!-- INSERT PICTURE OF USER LIST -->
 <div style="text-align: center; border: 1px solid #dadada; border-radius: 6px;">
     <img src="/images/2024-02-20-pa-perm-search-user-access-list.png" alt="Identify users who carry the permission" title="Identify users who carry the permission" style="max-width:700px;"/>
     <p style="color: #6a6a6a; font-size: .75rem;">Identify users who carry the permission and where they got it from.</p>
