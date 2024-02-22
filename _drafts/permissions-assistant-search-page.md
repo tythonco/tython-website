@@ -35,7 +35,7 @@ Gandhi once said:
 
 >Nobody can hurt me without my permission.
 
-At the end of the day, users do what they have been permitted to do. The responsibility falls on the admin's shoulders to divert many disasters. Stakes are high! While Salesforce has made efforts to mitigate these challenges, results have been mixed.
+At the end of the day, users do what they have been permitted to do. The responsibility falls on the admin's shoulders to avert disaster. Stakes are high! While Salesforce has made efforts to mitigate these challenges, results have been mixed.
 
 Tython Permissions Assistant aims to equip admins with comprehensive means to manage user access. "Good defense" is seizing the initiative and heading off unwarranted access. This post takes a detailed look at Permission Search, a tool to gain initiative by quickly identifying HOW and TO WHOM specific permissions have been granted.
 
