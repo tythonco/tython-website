@@ -30,6 +30,12 @@ This topic deserves a post or two of its own so stay tuned for future write-ups 
 
 [David Schach](https://www.linkedin.com/in/davidschach/) and [Chuck Liddell](https://www.linkedin.com/in/chuckliddell/) were panelists at the session (thanks again, guys!) and Chuck also had a session of his own on designing data facades for deeply-nested data integrations that was very interesting for anyone who has experienced the joy of parsing JSON in Apex. Chuck and his team built out a solution to the problem of a never ending series of statements that cast results to `Map<String,Object>` that we see too often in this scenario.
 
+### Getting Comfortable with AI
+
+We've all noticed the rise of AI technologies in the last few years, and [Karthik Nallajalla](https://www.linkedin.com/in/karthik-nallajalla-9200087/) showed us how [GitHub Copilot](https://github.com/features/copilot/) can integrate with Salesforce's favorite IDE, [VS Code](https://code.visualstudio.com), to more quickly build apps using the vast open source software Copilot has access to. While there's understandable concern over AI and it's implementations, there's no escaping it in our field. Salesforce themselves just finished hosting a heavily AI themed [TrailblzerDX](https://www.salesforce.com/trailblazerdx/) (more on that in a future post).
+
+One example Karthik highlighted was the ability for Copilot to write unit tests, and a helpful audience member brought up the point that such generated code is only really testing what the code already does, rather than what it should do. The major theme of using AI to generate code is that it's a first draft that must be checked, just as if you're reviewing the code of a junior developer. It'll be fun and interesting to experiment with Copilot and Salesforce's own [Einstein for Developers](https://developer.salesforce.com/tools/vscode/en/einstein/einstein-overview).
+
 ### Closing Keynote
 
 Of course I love the technical sessions that Cactusforce offers, but I also really liked the closing keynote this year. We wrapped up the conference this year with a fireside chat between Leah McGowen-Hare from Salesforce and Marisa Hambleton, who puts on the conference each year. I've always found Leah to be a very enaging speaker so if you're ever at a future Salesforce conference where she has a session I'd definitely recommend attending.
