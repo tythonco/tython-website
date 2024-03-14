@@ -30,6 +30,10 @@ This topic deserves a post or two of its own so stay tuned for future write-ups 
 
 [David Schach](https://www.linkedin.com/in/davidschach/) and [Chuck Liddell](https://www.linkedin.com/in/chuckliddell/) were panelists at the session (thanks again, guys!) and Chuck also had a session of his own on designing data facades for deeply-nested data integrations that was very interesting for anyone who has experienced the joy of parsing JSON in Apex. Chuck and his team built out a solution to the problem of a never ending series of statements that cast results to `Map<String,Object>` that we see too often in this scenario.
 
+### Always Learning
+
+One of the event organizers, Steve Simpson, also gave a good talk about the journey to becoming a Technical Architect. The recording of it is available [here](https://vimeo.com/showcase/10948502/video/907226309). I went to his talk at last year's CactusForce too, and it's always nice to hear someone speak so passionately about learning Salesforce. Listening to his talks always motivates me to continue learning new things and pushing my knowledge beyond just what I need to know to handle the tasks at hand. 
+
 ### Getting Comfortable with AI
 
 We've all noticed the rise of AI technologies in the last few years, and [Karthik Nallajalla](https://www.linkedin.com/in/karthik-nallajalla-9200087/) showed us how [GitHub Copilot](https://github.com/features/copilot/) can integrate with Salesforce's favorite IDE, [VS Code](https://code.visualstudio.com), to more quickly build apps using the vast open source software Copilot has access to. While there's understandable concern over AI and it's implementations, there's no escaping it in our field. Salesforce themselves just finished hosting a heavily AI themed [TrailblzerDX](https://www.salesforce.com/trailblazerdx/) (more on that in a future post).
