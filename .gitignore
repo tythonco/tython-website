@@ -6,3 +6,5 @@ node_modules
 TI
 out
 .DS_Store
+.vim-force
+.vscode
