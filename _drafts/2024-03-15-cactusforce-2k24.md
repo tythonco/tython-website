@@ -34,7 +34,7 @@ This topic deserves a post or two of its own so stay tuned for future write-ups 
 ### Always Learning
 > ##### *Martin Glauber*
 
-One of the event organizers, Steve Simpson, also gave a good talk about the journey to becoming a Technical Architect. The recording of it is available [here](https://vimeo.com/showcase/10948502/video/907226309). I went to his talk at last year's CactusForce too, and it's always nice to hear someone speak so passionately about learning Salesforce. Listening to his talks always motivates me to continue learning new things and pushing my knowledge beyond just what I need to know to handle the tasks at hand. 
+One of the event organizers, Steve Simpson, also gave a good talk about the journey to becoming a Technical Architect. The recording of it is available [here](https://vimeo.com/showcase/10948502/video/907226309). I went to his talk at last year's Cactusforce too, and it's always nice to hear someone speak so passionately about learning Salesforce. Listening to his talks always motivates me to continue learning new things and pushing my knowledge beyond just what I need to know to handle the tasks at hand.
 
 ### Getting Comfortable with AI
 > ##### *Chuck Ross*
